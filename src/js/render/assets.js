@@ -4,7 +4,7 @@
 // Until an image is decoded the vector art in art.js is drawn instead; `?art=0` keeps the vector art.
 /* global ART_MANIFEST */
 const MAN = typeof ART_MANIFEST !== 'undefined' ? ART_MANIFEST : {};
-const simple = (() => { try { return JSON.parse(localStorage.getItem('vov-farm-settings') || '{}').gfx === 'simple'; } catch { return false; } })();
+const simple = (() => { try { return JSON.parse(localStorage.getItem('garvan-settings') || '{}').gfx === 'simple'; } catch { return false; } })();
 const off = (typeof location !== 'undefined' && /[?&]art=0\b/.test(location.search)) || simple;
 
 export const ART = { on: !off && Object.keys(MAN).length > 0, imgs: new Map(), loading: new Map(), pending: 0, failed: [], dirty: false, loaded: 0, fresh: [] };

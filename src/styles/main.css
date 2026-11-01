@@ -1,4 +1,4 @@
-/* Fonts: system stacks from shared/design/tokens.css. UI colors are set per chapter by ui.js. */
+/* Fonts: system stacks from shared/design/tokens.css. UI colors are set by ui.js (palette.js UI_THEME). */
 :root {
   --font-serif-victorian: "Palatino Linotype", "Book Antiqua", Palatino, Georgia, "Times New Roman", serif;
   --font-deco: "Century Gothic", Futura, "Avenir Next", "Trebuchet MS", "Gill Sans", sans-serif;
@@ -42,6 +42,7 @@ button:focus-visible, [tabindex]:focus-visible { outline: 3px solid var(--ui-acc
 .h-quest b { display: block; font-family: var(--ui-display); font-size: 0.82rem; text-transform: uppercase; letter-spacing: .06em; color: var(--ui-muted); }
 .h-quest .q { display: flex; gap: 6px; }
 .h-quest .q.done { color: var(--ui-muted); text-decoration: line-through; }
+.h-quest .zone { font-weight: 700; font-family: var(--ui-display); color: var(--ui-accent); font-size: 0.9rem; margin-bottom: 2px; }
 .hud-r { margin-left: auto; display: flex; gap: 8px; align-items: flex-start; }
 .h-stats { min-width: 9rem; }
 .h-money { font-weight: 700; font-size: 1.12rem; font-family: var(--ui-display); font-variant-numeric: tabular-nums; }

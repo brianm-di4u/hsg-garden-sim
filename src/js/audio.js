@@ -49,16 +49,17 @@ const SOUNDS = {
   craft: () => { tone(523, 0.08, 'triangle', 0.15); tone(659, 0.08, 'triangle', 0.15, 0, 0.08); tone(784, 0.12, 'triangle', 0.15, 0, 0.16); },
   place: () => tone(220, 0.12, 'triangle', 0.2, -40),
   eat: () => { tone(330, 0.06, 'square', 0.06); tone(330, 0.06, 'square', 0.06, 0, 0.1); },
-  cast: () => { noiseBurst(0.2, 0.08, 3000); tone(700, 0.25, 'sine', 0.06, -400); },
-  bite: () => { tone(880, 0.08, 'square', 0.12); tone(880, 0.08, 'square', 0.12, 0, 0.12); },
-  catch: () => { tone(523, 0.1, 'triangle', 0.18); tone(784, 0.1, 'triangle', 0.18, 0, 0.09); tone(1047, 0.18, 'triangle', 0.18, 0, 0.18); },
   nope: () => tone(160, 0.15, 'square', 0.08, -40),
   talk: () => tone(500 + Math.random() * 120, 0.06, 'triangle', 0.08),
   gift: () => { tone(660, 0.1, 'sine', 0.15); tone(880, 0.16, 'sine', 0.15, 0, 0.1); },
   quest: () => { [523, 659, 784, 1047].forEach((f, i) => tone(f, 0.16, 'triangle', 0.16, 0, i * 0.09)); },
   sleep: () => { [392, 330, 262].forEach((f, i) => tone(f, 0.3, 'sine', 0.12, 0, i * 0.2)); },
-  era: () => { [262, 330, 392, 523, 659].forEach((f, i) => tone(f, 0.5, 'sine', 0.12, 0, i * 0.18)); },
   click: () => tone(700, 0.04, 'square', 0.05),
+  mow: () => { noiseBurst(0.2, 0.14, 600); tone(110, 0.18, 'sawtooth', 0.05, 10); },
+  snip: () => { tone(1800, 0.03, 'square', 0.06); noiseBurst(0.04, 0.12, 3000); },
+  // A peacock's call: two loud rising wails (synthesized, not a recording).
+  peacock: () => { tone(620, 0.32, 'sawtooth', 0.05, 380); tone(640, 0.36, 'sawtooth', 0.05, 420, 0.42); },
+  bells: () => { [784, 659, 523, 659, 784, 1047].forEach((f, i) => tone(f, 0.5, 'sine', 0.07, 0, i * 0.22)); },
   bird: () => { tone(2200, 0.08, 'sine', 0.05, 400); tone(2600, 0.1, 'sine', 0.05, -300, 0.12); },
 };
 export function play(id) {
