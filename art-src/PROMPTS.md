@@ -425,3 +425,5 @@ TEXTURE:
 PANORAMA:
 25. art-src/vista-garvan.png — landscape 1536x1024, a full painted scene (not on white; this is a title-screen panorama in the style of vista-6.png): spring morning at a woodland garden on a lake in the Ouachita Mountains: in the foreground a lawn edged with drifts of pink and white azaleas and beds of red, yellow and white tulips; in the middle distance, among tall shortleaf pines, a modern wood-and-glass chapel with a very tall steep gable; behind it a blue lake with forested ridges beyond; a blue peacock with its train trailing walks on the lawn. No people, no text.
 ```
+
+Follow-up (same session): `tree-dogwood.png` came back with flowers; it was regenerated with: "Regenerate art-src/tree-dogwood.png (portrait 768x1024): EDIT of art-src/tree-dogwood-sp.png — identical tree, trunk, branch structure and silhouette, but in SUMMER: NO flowers at all, the crown fully covered in soft mid-green oval dogwood leaves. Same painted style, same white #FFFFFF background, base of trunk at bottom-centre, no ground, no shadow, no text."

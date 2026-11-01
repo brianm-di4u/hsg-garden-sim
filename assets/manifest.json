@@ -185,6 +185,12 @@
   "h": 512,
   "bytes": 25432
  },
+ "tex-pinestraw": {
+  "file": "tex-pinestraw.webp",
+  "w": 512,
+  "h": 512,
+  "bytes": 80556
+ },
  "tex-rock": {
   "file": "tex-rock.webp",
   "w": 512,
@@ -218,8 +224,8 @@
  "tree-dogwood": {
   "file": "tree-dogwood.webp",
   "w": 288,
-  "h": 373,
-  "bytes": 37702
+  "h": 377,
+  "bytes": 36444
  },
  "tree-dogwood-fa": {
   "file": "tree-dogwood-fa.webp",
@@ -304,5 +310,11 @@
   "w": 288,
   "h": 385,
   "bytes": 56214
+ },
+ "vista-garvan": {
+  "file": "vista-garvan.webp",
+  "w": 1536,
+  "h": 1024,
+  "bytes": 424108
  }
 }
