@@ -8,7 +8,7 @@ import { doy, season, yearNo, hours } from './calendar.js';
 import { zoneStats, needsPrune, bedLook, tulipProgress } from './garden.js';
 import { phase, counts } from './displays.js';
 
-const visitorZones = ZONES.filter((z) => z.visitor && z.id !== 'woods' && z.id !== 'hixson');
+const visitorZones = ZONES.filter((z) => z.visitor && !['woods', 'hixson', 'parking'].includes(z.id));
 const zoneName = (id) => (ZONES.find((z) => z.id === id) || {}).name || '';
 
 function order(type, zone, n, extra = {}) {

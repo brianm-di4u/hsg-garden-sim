@@ -193,6 +193,199 @@
    "trim": true,
    "quality": 0.82,
    "keyAll": true
+  },
+  {
+   "name": "bld-chapel",
+   "src": "bld-chapel.png",
+   "w": 640,
+   "keyWhite": 28,
+   "trim": true,
+   "quality": 0.8
+  },
+  {
+   "name": "bld-carillon",
+   "src": "bld-carillon.png",
+   "w": 192,
+   "keyWhite": 28,
+   "trim": true,
+   "quality": 0.8
+  },
+  {
+   "name": "bld-welcome",
+   "src": "bld-welcome.png",
+   "w": 768,
+   "keyWhite": 28,
+   "trim": true,
+   "quality": 0.8
+  },
+  {
+   "name": "bld-pavilion",
+   "src": "bld-pavilion.png",
+   "w": 640,
+   "keyWhite": 28,
+   "trim": true,
+   "quality": 0.8
+  },
+  {
+   "name": "bld-cafe",
+   "src": "bld-cafe.png",
+   "w": 512,
+   "keyWhite": 28,
+   "trim": true,
+   "quality": 0.8
+  },
+  {
+   "name": "bld-treehouse",
+   "src": "bld-treehouse.png",
+   "w": 512,
+   "keyWhite": 28,
+   "trim": true,
+   "quality": 0.8
+  },
+  {
+   "name": "bld-greenhouse",
+   "src": "bld-greenhouse.png",
+   "w": 512,
+   "keyWhite": 28,
+   "trim": true,
+   "quality": 0.8
+  },
+  {
+   "name": "bld-storage",
+   "src": "bld-storage.png",
+   "w": 512,
+   "keyWhite": 28,
+   "trim": true,
+   "quality": 0.8
+  },
+  {
+   "name": "bld-brides",
+   "src": "bld-brides.png",
+   "w": 448,
+   "keyWhite": 28,
+   "trim": true,
+   "quality": 0.8
+  },
+  {
+   "name": "bld-restroom",
+   "src": "bld-restroom.png",
+   "w": 384,
+   "keyWhite": 28,
+   "trim": true,
+   "quality": 0.8
+  },
+  {
+   "name": "bld-grooms",
+   "src": "bld-brides.png",
+   "w": 448,
+   "keyWhite": 28,
+   "trim": true,
+   "quality": 0.8
+  },
+  {
+   "name": "tree-jmaple",
+   "src": "tree-jmaple.png",
+   "w": 288,
+   "keyWhite": 28,
+   "trim": true
+  },
+  {
+   "name": "tree-jmaple-fa",
+   "src": "tree-jmaple-fa.png",
+   "w": 288,
+   "keyWhite": 28,
+   "trim": true
+  },
+  {
+   "name": "tree-jmaple-wi",
+   "src": "tree-jmaple-wi.png",
+   "w": 288,
+   "keyWhite": 28,
+   "trim": true
+  },
+  {
+   "name": "tree-dogwood",
+   "src": "tree-dogwood.png",
+   "w": 288,
+   "keyWhite": 28,
+   "trim": true
+  },
+  {
+   "name": "tree-dogwood-sp",
+   "src": "tree-dogwood-sp.png",
+   "w": 288,
+   "keyWhite": 28,
+   "trim": true
+  },
+  {
+   "name": "tree-dogwood-fa",
+   "src": "tree-dogwood-fa.png",
+   "w": 288,
+   "keyWhite": 28,
+   "trim": true
+  },
+  {
+   "name": "tree-dogwood-wi",
+   "src": "tree-dogwood-wi.png",
+   "w": 288,
+   "keyWhite": 28,
+   "trim": true
+  },
+  {
+   "name": "tree-redbud-sp",
+   "src": "tree-redbud-sp.png",
+   "w": 288,
+   "keyWhite": 28,
+   "trim": true
+  },
+  {
+   "name": "tree-redbud",
+   "src": "tree-redbud.png",
+   "w": 288,
+   "keyWhite": 28,
+   "trim": true
+  },
+  {
+   "name": "tree-cypress",
+   "src": "tree-cypress.png",
+   "w": 288,
+   "keyWhite": 28,
+   "trim": true
+  },
+  {
+   "name": "animal-peacock",
+   "src": "animal-peacock.png",
+   "w": 192,
+   "keyWhite": 28,
+   "trim": true
+  },
+  {
+   "name": "animal-peacock-fan",
+   "src": "animal-peacock-fan.png",
+   "w": 256,
+   "keyWhite": 28,
+   "trim": true
+  },
+  {
+   "name": "animal-peahen",
+   "src": "animal-peahen.png",
+   "w": 128,
+   "keyWhite": 28,
+   "trim": true
+  },
+  {
+   "name": "tex-pinestraw",
+   "src": "tex-pinestraw.png",
+   "w": 512,
+   "seamless": true,
+   "quality": 0.74
+  },
+  {
+   "name": "vista-garvan",
+   "src": "vista-garvan.png",
+   "w": 1536,
+   "h": 1024,
+   "quality": 0.7
   }
  ]
 }

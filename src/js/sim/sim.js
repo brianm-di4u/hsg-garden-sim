@@ -146,7 +146,7 @@ function indexObjs(gm) {
   for (const [k, o] of Object.entries(gm.S.objs || {})) if (o.t === 'plant' && o.k === 'bonsai') gm.bonsai.push(k);
 }
 const newYearStats = () => ({ tulipPct: null, lightsReady: false, lightsChecked: false, lightsPct: 0, weddings: 0, weddingsMissed: 0, ratingSum: 0, ratingDays: 0, orders: 0, ordersDone: 0 });
-function toStart(gm) { const p = placeOf(gm, 'start'); gm.S.player.x = p.x + 0.5; gm.S.player.y = p.y + 0.9; gm.S.player.face = 'up'; }
+function toStart(gm) { const p = placeOf(gm, 'board'); gm.S.player.x = p.x + 0.5; gm.S.player.y = p.y + 0.9; gm.S.player.face = 'up'; }
 
 // ---------- the tick ----------
 export function tick(gm, input = {}) {

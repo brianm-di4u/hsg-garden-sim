@@ -1,9 +1,93 @@
 {
+ "animal-peacock": {
+  "file": "animal-peacock.webp",
+  "w": 192,
+  "h": 193,
+  "bytes": 12824
+ },
+ "animal-peacock-fan": {
+  "file": "animal-peacock-fan.webp",
+  "w": 256,
+  "h": 250,
+  "bytes": 29676
+ },
+ "animal-peahen": {
+  "file": "animal-peahen.webp",
+  "w": 128,
+  "h": 141,
+  "bytes": 6690
+ },
  "bld-barn": {
   "file": "bld-barn.webp",
   "w": 1280,
   "h": 613,
   "bytes": 118902
+ },
+ "bld-brides": {
+  "file": "bld-brides.webp",
+  "w": 448,
+  "h": 449,
+  "bytes": 46272
+ },
+ "bld-cafe": {
+  "file": "bld-cafe.webp",
+  "w": 512,
+  "h": 499,
+  "bytes": 60840
+ },
+ "bld-carillon": {
+  "file": "bld-carillon.webp",
+  "w": 192,
+  "h": 880,
+  "bytes": 32776
+ },
+ "bld-chapel": {
+  "file": "bld-chapel.webp",
+  "w": 640,
+  "h": 974,
+  "bytes": 70218
+ },
+ "bld-greenhouse": {
+  "file": "bld-greenhouse.webp",
+  "w": 512,
+  "h": 384,
+  "bytes": 48328
+ },
+ "bld-grooms": {
+  "file": "bld-grooms.webp",
+  "w": 448,
+  "h": 449,
+  "bytes": 46272
+ },
+ "bld-pavilion": {
+  "file": "bld-pavilion.webp",
+  "w": 640,
+  "h": 498,
+  "bytes": 71728
+ },
+ "bld-restroom": {
+  "file": "bld-restroom.webp",
+  "w": 384,
+  "h": 266,
+  "bytes": 24086
+ },
+ "bld-storage": {
+  "file": "bld-storage.webp",
+  "w": 512,
+  "h": 395,
+  "bytes": 32750
+ },
+ "bld-treehouse": {
+  "file": "bld-treehouse.webp",
+  "w": 512,
+  "h": 530,
+  "bytes": 59182
+ },
+ "bld-welcome": {
+  "file": "bld-welcome.webp",
+  "w": 768,
+  "h": 417,
+  "bytes": 74312
  },
  "chars-dress": {
   "file": "chars-dress.webp",
@@ -125,6 +209,54 @@
   "h": 512,
   "bytes": 28638
  },
+ "tree-cypress": {
+  "file": "tree-cypress.webp",
+  "w": 288,
+  "h": 511,
+  "bytes": 47238
+ },
+ "tree-dogwood": {
+  "file": "tree-dogwood.webp",
+  "w": 288,
+  "h": 373,
+  "bytes": 37702
+ },
+ "tree-dogwood-fa": {
+  "file": "tree-dogwood-fa.webp",
+  "w": 288,
+  "h": 373,
+  "bytes": 39186
+ },
+ "tree-dogwood-sp": {
+  "file": "tree-dogwood-sp.webp",
+  "w": 288,
+  "h": 376,
+  "bytes": 41824
+ },
+ "tree-dogwood-wi": {
+  "file": "tree-dogwood-wi.webp",
+  "w": 288,
+  "h": 378,
+  "bytes": 64052
+ },
+ "tree-jmaple": {
+  "file": "tree-jmaple.webp",
+  "w": 288,
+  "h": 358,
+  "bytes": 42940
+ },
+ "tree-jmaple-fa": {
+  "file": "tree-jmaple-fa.webp",
+  "w": 288,
+  "h": 359,
+  "bytes": 44424
+ },
+ "tree-jmaple-wi": {
+  "file": "tree-jmaple-wi.webp",
+  "w": 288,
+  "h": 371,
+  "bytes": 70572
+ },
  "tree-magnolia": {
   "file": "tree-magnolia.webp",
   "w": 256,
@@ -160,5 +292,17 @@
   "w": 256,
   "h": 352,
   "bytes": 29336
+ },
+ "tree-redbud": {
+  "file": "tree-redbud.webp",
+  "w": 288,
+  "h": 385,
+  "bytes": 53086
+ },
+ "tree-redbud-sp": {
+  "file": "tree-redbud-sp.webp",
+  "w": 288,
+  "h": 385,
+  "bytes": 56214
  }
 }

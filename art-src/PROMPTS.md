@@ -375,3 +375,53 @@ Files (all under `art-src/`):
 
 When done, list the files written and their pixel sizes.
 ```
+
+## 15. Garvan batch: garden buildings, trees, peafowl, pine straw, title panorama (2026-11-01)
+
+For the conversion to Woodland Gardens Keeper. Run with the Codex CLI image tool (GPT-6.1 Sol) via the codex-rescue agent. Styles follow the pilot images; no photographs were given as references.
+
+```text
+Working directory: C:\Video Game Projects\repos\hsg-farm-sim. Image-generation task: generate each image with your image generation tool and copy the final file to the exact path given (all under art-src/). Do not edit any other files. Report the paths when done.
+
+Original hand-painted art for a top-down gardening sim set at a woodland botanical garden on a lake in the Ouachita Mountains of Arkansas (Garvan Woodland Gardens, Hot Springs). Paint from the written descriptions only; do not reproduce any photograph.
+
+STYLE REFERENCES (open and match them closely: camera angle, painting style, light, level of detail, outline colour): art-src/pilot-plankbath.png and art-src/pilot-cabin.png for buildings; art-src/pilot-oak.png for trees; art-src/animal-hen.png for animals; art-src/pilot-grass.png for the texture; art-src/vista-6.png for the panorama. Slightly simplify fine texture so shapes read when shown small (~200 px wide), keeping the same painterly look.
+
+COMMON RULES: hand-painted gouache storybook game art; soft sunlight from the upper left; thin warm dark-brown outlines (not black); rich but natural colours; crisp edges, no blur, no vignette. NO text, NO lettering, NO logos, NO signatures, NO people. Where a sign board is mentioned it must be BLANK.
+Objects (buildings, trees, animals): high-angle three-quarter top-down view (camera tilted ~55° down, orthographic, no perspective convergence): roofs/tops seen from above and the south-facing front below; centred, filling the image width, base touching the bottom of the image; pure flat white background (#FFFFFF); NO ground, NO grass base, NO cast shadow.
+
+BUILDINGS (landscape 1536x1024 unless stated; fill the width):
+1. art-src/bld-chapel.png — portrait 1024x1536 (footprint 6 wide × 8 deep): a modern woodland wedding chapel in the organic Ozark architecture tradition: a very tall, steep gable roof of dark grey standing-seam metal; the long walls are almost entirely floor-to-ceiling glass set in a dense lattice of pale golden yellow-pine posts and crossing beams, so the timber frame shows through the glass like a forest of trunks; a narrow stone base; tall glass double doors centred on the south gable end with a small flagstone landing.
+2. art-src/bld-carillon.png — portrait 512x1536 (footprint 1 wide, very tall): a slender free-standing bell tower made of 16 tall, thin copper-clad columns rising in a tight square cluster, warm copper with a little green patina at the tops, on a low square stone plinth.
+3. art-src/bld-welcome.png — footprint 8 × 5: a garden visitor center built of native fieldstone and dark-stained wood, a long low building with a broad hipped roof of brown shingles and deep eaves on timber brackets, a row of tall windows, wooden double doors centred on the front, stone planters either side. The sign board over the door is BLANK.
+4. art-src/bld-pavilion.png — footprint 6 × 5: an open-air garden pavilion by an organic-modernist architect: warm sandstone piers and low sandstone walls, redwood beams, and a faceted, crystalline steel-and-glass roof that rises to a central oculus shaped like an unfolding flower; open sides, a flagstone floor visible inside.
+5. art-src/bld-cafe.png — square 1024x1024 (footprint 5 × 4): a small rustic garden café of stained wood and fieldstone with a green metal roof, a covered porch with a few small round tables and chairs, a serving window, and a BLANK sign board.
+6. art-src/bld-treehouse.png — square 1024x1024 (footprint 5 × 4): a modern sculptural treehouse raised on slender dark steel columns: walls of curved heat-treated pine slats forming an organic lantern-like shape, a steep ramp-walkway leading up to it, open lookout decks.
+7. art-src/bld-greenhouse.png — landscape 1536x1024 (footprint 5 × 4): a working glass greenhouse with a white metal frame and gable roof, potting benches with seedling flats visible through the glass, a few clay pots by the door.
+8. art-src/bld-storage.png — landscape 1536x1024 (footprint 5 × 3): a plain grey corrugated-metal storage barn with a big roll-up door, a few wooden pallets and coiled cables by it; a BLANK sign board above the door.
+9. art-src/bld-brides.png — square 1024x1024 (footprint 4 × 3): a small elegant stone-and-timber cottage (a bride's dressing hall) with a steep slate-grey roof, a timber porch and window boxes of white flowers.
+10. art-src/bld-restroom.png — landscape 1536x1024 (footprint 3 × 2): a small park restroom building of fieldstone with a dark shingle roof and two wooden doors.
+
+TREES (portrait 768x1024; base of trunk at bottom-centre; same scale feel as pilot-oak.png but smaller trees):
+11. art-src/tree-jmaple.png — a Japanese maple in summer: graceful layered, horizontal tiers of finely cut deep red-purple leaves on a low, wide, slightly twisting trunk.
+12. art-src/tree-jmaple-fa.png — EDIT of tree-jmaple.png: identical tree, autumn: blazing scarlet and orange leaves.
+13. art-src/tree-jmaple-wi.png — EDIT of tree-jmaple.png: identical trunk and branches, winter: bare, elegant twiggy branches.
+14. art-src/tree-dogwood.png — a flowering dogwood in summer: small tree with a layered, spreading crown of soft green oval leaves.
+15. art-src/tree-dogwood-sp.png — EDIT of tree-dogwood.png: identical tree in full spring bloom, covered in white four-petalled flowers, few leaves.
+16. art-src/tree-dogwood-fa.png — EDIT of tree-dogwood.png: identical tree, autumn: deep burgundy-red leaves and a few red berries.
+17. art-src/tree-dogwood-wi.png — EDIT of tree-dogwood.png: identical trunk and branches, winter: bare grey branches with small round flower buds.
+18. art-src/tree-redbud-sp.png — an eastern redbud in spring bloom: small tree with dark branches thickly covered in magenta-pink pea-like flowers, no leaves yet.
+19. art-src/tree-redbud.png — EDIT of tree-redbud-sp.png: identical tree in summer: heart-shaped green leaves.
+20. art-src/tree-cypress.png — a bald cypress by a lake: tall narrow pyramidal tree with soft feathery green needles, a buttressed flared base with a few knobby "knees".
+
+ANIMALS (square 1024x1024, facing RIGHT, three-quarter top-down like animal-hen.png):
+21. art-src/animal-peacock.png — an Indian blue peacock walking: iridescent royal-blue neck and breast, a small fan-shaped crest, long green-and-bronze train of eye-feathers trailing behind on the ground, folded.
+22. art-src/animal-peacock-fan.png — the same peacock displaying: the train raised in a huge upright semicircular fan of green feathers covered in blue-and-bronze "eyes", seen from the front-right, the blue body small in front of it.
+23. art-src/animal-peahen.png — an Indian peahen: mottled grey-brown body, white belly, a metallic green lower neck and a small crest; short tail.
+
+TEXTURE:
+24. art-src/tex-pinestraw.png — square 1024x1024, a frameless TEXTURE seen straight from above (not three-quarter): a garden bed mulched with long-leaf pine straw: a dense, even mat of long thin russet, copper and tan pine needles crossing at random angles, very even overall tone and evenly lit (no light gradient, no vignette, no large features, no objects) so it can tile seamlessly.
+
+PANORAMA:
+25. art-src/vista-garvan.png — landscape 1536x1024, a full painted scene (not on white; this is a title-screen panorama in the style of vista-6.png): spring morning at a woodland garden on a lake in the Ouachita Mountains: in the foreground a lawn edged with drifts of pink and white azaleas and beds of red, yellow and white tulips; in the middle distance, among tall shortleaf pines, a modern wood-and-glass chapel with a very tall steep gable; behind it a blue lake with forested ridges beyond; a blue peacock with its train trailing walks on the lawn. No people, no text.
+```
