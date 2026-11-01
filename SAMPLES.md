@@ -1,4 +1,4 @@
-# Farm sim: code-sample survey
+# Code-sample survey (carried over from the farm game this sim was converted from)
 
 Surveyed 2026-10-28. Licenses were read from each repo's license file or the page's own license text.
 Commits come from the GitHub API (`/commits?per_page=1`, `/license`, `/tags`). The few relevant source

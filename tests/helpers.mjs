@@ -1,28 +1,30 @@
-// Shared helpers for the Valley of Vapors tests (imported by *.test.mjs; not a test file itself).
+// Shared helpers for the Woodland Gardens Keeper tests (imported by *.test.mjs; not a test file itself).
 
-// A paused chapter with the player at a named place.
-export async function chapter(t, era = 1, o = {}) {
+// A paused game on a given day of the year (0 = Spring 1), at a named place and time.
+export async function garden(t, o = {}) {
   await t.seed(o.seed ?? 7);
-  const s = await t.game('scene', { era, at: o.at || 'farmDoor', time: o.time, day: o.day, weather: o.weather, money: o.money });
-  if (o.setup) await t.game('setState', o.setup);
+  const s = await t.game('scene', { day: o.day ?? 0, at: o.at || 'start', time: o.time ?? 600, weather: o.weather, money: o.money, tx: o.tx, ty: o.ty });
+  if (o.setup) return t.game('setState', o.setup);
   return s;
 }
+export const yd = (sea, d) => ['sp', 'su', 'fa', 'wi'].indexOf(sea) * 28 + d - 1;
 
-// First free field tile (no object, soil or crop) scanning from (x0, y0).
-export async function freeField(t, x0 = 3, y0 = 16, n = 1) {
-  return t.page.evaluate(([x0, y0, n]) => {
-    const out = [];
-    for (let y = y0; y <= 31 && out.length < n; y++) for (let x = x0; x <= 20 && out.length < n; x++) {
-      const k = x + ',' + y;
-      const S = window.__vovApp.gm.S;
-      if (S.objs[k] || S.soil[k] || S.crops[k] || window.__game.act('blocked', x, y)) continue;
-      // keep a free tile above it so the player can stand there facing down
-      const up = x + ',' + (y - 1);
-      if (S.objs[up] || S.crops[up]) continue;
-      out.push({ x, y });
-    }
-    return out;
-  }, [x0, y0, n]);
+// A free walkable tile next to (x, y) to stand on, and the facing toward (x, y).
+export async function standBy(t, x, y) {
+  const spot = await t.page.evaluate(([x, y]) => {
+    for (const [dx, dy, f] of [[0, 1, 'up'], [0, -1, 'down'], [-1, 0, 'right'], [1, 0, 'left']]) if (!window.__game.act('blocked', x + dx, y + dy)) return { x: x + dx, y: y + dy, f };
+    return null;
+  }, [x, y]);
+  if (!spot) throw new Error(`no free tile next to ${x},${y}`);
+  await t.game('act', 'teleport', spot.x, spot.y, spot.f);
+  return spot;
+}
+// Use the given item on the tile (x, y) from a neighbouring tile.
+export async function useOn(t, item, x, y) {
+  await standBy(t, x, y);
+  if (item) await t.game('act', 'selectItem', item);
+  await t.game('act', 'useAt', x, y);
+  return t.state();
 }
 
 // Hold a key for n ticks of the paused game (real keyboard events, deterministic stepping).
@@ -32,18 +34,14 @@ export async function holdKey(t, key, ticks) {
   await t.page.keyboard.up(key);
   await t.game('step', 1);
 }
-export async function press(t, key, ticks = 2) {
-  await t.page.keyboard.press(key);
-  await t.game('step', ticks);
-}
-
 export async function click(t, act, arg) {
   const sel = arg != null ? `[data-act="${act}"][data-arg="${arg}"]` : `[data-act="${act}"]`;
   await t.page.click(sel);
   await t.page.waitForTimeout(30);
 }
+export const gm = (t, fn, arg) => t.page.evaluate(fn, arg);
 
-// WCAG contrast of every visible text element against its nearest opaque background (from the baseball tests).
+// WCAG contrast of every visible text element against its nearest opaque background.
 export async function contrastReport(page) {
   return page.evaluate(() => {
     const parse = (c) => { const m = c.match(/rgba?\(([^)]+)\)/); if (!m) return null; const v = m[1].split(',').map((x) => parseFloat(x)); return { r: v[0], g: v[1], b: v[2], a: v[3] == null ? 1 : v[3] }; };

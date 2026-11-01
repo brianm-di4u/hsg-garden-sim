@@ -2,7 +2,7 @@
   "name": "hsg-farm-sim",
   "private": true,
   "type": "module",
-  "description": "Valley of Vapors: Through the Ages: Farming and life sim across the town's eras",
+  "description": "Woodland Gardens Keeper: a gardening and grounds-keeping sim set at Garvan Woodland Gardens, Hot Springs",
   "license": "MIT",
   "scripts": {
     "setup": "cd shared/test-harness && npm install && npx playwright install chromium",

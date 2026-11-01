@@ -1,694 +1,131 @@
 {
- "note": "Every history fact the game displays. bank = audited id in games/trivia/data/questions.json; corpus = checked against a research file. Verified by tools/check-facts.mjs.",
+ "note": "Every fact card the game displays. corpus = the quoted strings must appear in the named research file (research/garvan-*.md), which lists the sources. Verified by tools/check-facts.mjs.",
  "facts": [
-  {
-   "id": "f-calfait",
-   "bank": "hs-0115",
-   "key": "Calfait Creek",
-   "text": "In December 1804 the Dunbar–Hunter party camped on Calfait Creek, today Gulpha Creek.",
-   "source": "Encyclopedia of Arkansas: Hunter-Dunbar Expedition",
-   "sourceUrl": "https://encyclopediaofarkansas.net/entries/hunter-dunbar-expedition-2205/"
-  },
-  {
-   "id": "f-prudhomme",
-   "bank": "hs-0282",
-   "key": "Jean Pierre Emanuel Prudhomme",
-   "text": "In 1807 Jean Pierre Emanuel Prudhomme built the first real settlement at the springs and stayed two years.",
-   "source": "Encyclopedia of Arkansas: Garland County",
-   "sourceUrl": "https://encyclopediaofarkansas.net/entries/garland-county-770/"
-  },
-  {
-   "id": "f-percival",
-   "bank": "hs-0283",
-   "key": "John Percival",
-   "text": "Trapper John Percival built cabins to rent to the health seekers who came to the springs.",
-   "source": "Encyclopedia of Arkansas: Garland County",
-   "sourceUrl": "https://encyclopediaofarkansas.net/entries/garland-county-770/"
-  },
-  {
-   "id": "f-quapaw-1818",
-   "bank": "hs-0008",
-   "key": "The Quapaw",
-   "text": "On Aug. 24, 1818, the Quapaw ceded the land around the hot springs to the United States.",
-   "source": "Encyclopedia of Arkansas: Garland County",
-   "sourceUrl": "https://encyclopediaofarkansas.net/entries/garland-county-770/"
-  },
-  {
-   "id": "f-belding",
-   "bank": "hs-0007",
-   "key": "Massachusetts",
-   "text": "The Belding family came from Massachusetts in 1828 and built a small hotel for visitors.",
-   "source": "Encyclopedia of Arkansas: Garland County",
-   "sourceUrl": "https://encyclopediaofarkansas.net/entries/garland-county-770/"
-  },
-  {
-   "id": "f-reservation",
-   "bank": "hs-0001",
-   "key": "April 20, 1832",
-   "text": "On April 20, 1832, President Andrew Jackson signed the act reserving the springs.",
-   "source": "NPS: History & Culture",
-   "sourceUrl": "https://www.nps.gov/hosp/learn/historyculture/index.htm"
-  },
-  {
-   "id": "f-first-reservation",
-   "bank": "hs-0473",
-   "key": "federal reservation",
-   "text": "Hot Springs began in 1832 as a federal reservation, which the Encyclopedia of Arkansas calls the nation's first.",
-   "source": "Encyclopedia of Arkansas: Garland County",
-   "sourceUrl": "https://encyclopediaofarkansas.net/entries/Garland-County-770"
-  },
-  {
-   "id": "f-yellowstone",
-   "bank": "hs-0002",
-   "key": "40 years",
-   "text": "The 1832 Hot Springs Reservation is 40 years older than Yellowstone National Park.",
-   "source": "NPS: History & Culture",
-   "sourceUrl": "https://www.nps.gov/hosp/learn/historyculture/index.htm"
-  },
-  {
-   "id": "f-new-madrid",
-   "bank": "hs-0010",
-   "key": "No. 467",
-   "text": "The Rector family's claim to the springs rested on New Madrid Certificate No. 467, one of the title fights over the reservation.",
-   "source": "Encyclopedia of Arkansas: Rector v. United States",
-   "sourceUrl": "https://encyclopediaofarkansas.net/entries/rector-v-united-states-14155/"
-  },
-  {
-   "id": "f-garland-county",
-   "bank": "hs-0011",
-   "key": "1873",
-   "text": "Garland County was created in 1873, with Hot Springs as its seat.",
-   "source": "Encyclopedia of Arkansas: Garland County",
-   "sourceUrl": "https://encyclopediaofarkansas.net/entries/garland-county-770/"
-  },
-  {
-   "id": "f-arlington-1875",
-   "bank": "hs-0058",
-   "key": "1875",
-   "text": "The first Arlington Hotel opened in 1875.",
-   "source": "Arlington Hotel: History",
-   "sourceUrl": "https://www.arlingtonhotel.com/history/"
-  },
-  {
-   "id": "f-malvern-rail",
-   "bank": "hs-0016",
-   "key": "Malvern",
-   "text": "Diamond Jo Reynolds's railroad carried visitors to Hot Springs from Malvern.",
-   "source": "Encyclopedia of Arkansas: Hot Springs Railroad",
-   "sourceUrl": "https://encyclopediaofarkansas.net/entries/hot-springs-railroad-14157"
-  },
-  {
-   "id": "f-white-stockings",
-   "bank": "hs-0182",
-   "key": "Chicago White Stockings",
-   "text": "In 1886 the Chicago White Stockings became the first major league club to hold spring training in Hot Springs.",
-   "source": "Wikipedia: Hot Springs, Arkansas",
-   "sourceUrl": "https://en.wikipedia.org/wiki/Hot_Springs,_Arkansas"
-  },
-  {
-   "id": "f-baden-baden",
-   "bank": "hs-0018",
-   "key": "Baden-Baden",
-   "text": "An 1877 railroad booklet promoted Hot Springs by comparing it to the German spa Baden-Baden.",
-   "source": "NPS: Getting to the American Spa",
-   "sourceUrl": "https://www.nps.gov/hosp/learn/kidsyouth/getting-to-hot-springs-national-park.htm"
-  },
-  {
-   "id": "f-fire-1913",
-   "bank": "hs-0026",
-   "key": "Ironing that set a curtain alight",
-   "text": "The Great Fire of Sept. 5, 1913, started with ironing that set a curtain alight.",
-   "source": "Encyclopedia of Arkansas: Fire of 1913",
-   "sourceUrl": "https://encyclopediaofarkansas.net/entries/Hot-Springs-Fire-of-1913-14306"
-  },
-  {
-   "id": "f-shingle-ban",
-   "bank": "hs-0030",
-   "key": "Wood-shingle roofs",
-   "text": "After the 1913 fire, Hot Springs outlawed wood-shingle roofs.",
-   "source": "Encyclopedia of Arkansas: Fire of 1913",
-   "sourceUrl": "https://encyclopediaofarkansas.net/entries/Hot-Springs-Fire-of-1913-14306"
-  },
-  {
-   "id": "f-buckstaff",
-   "bank": "hs-0062",
-   "key": "The Buckstaff",
-   "text": "The Buckstaff has offered baths continuously since 1912.",
-   "source": "NPS: Buckstaff Bathhouse",
-   "sourceUrl": "https://www.nps.gov/hosp/learn/historyculture/buckstaff-bathhouse.htm"
-  },
-  {
-   "id": "f-free-baths-1919",
-   "bank": "hs-0020",
-   "key": "87,040",
-   "text": "The Government Free Bathhouse gave about 87,040 free baths in 1919.",
-   "source": "NPS 1920 brochure",
-   "sourceUrl": "https://npshistory.com/publications/hosp/brochures/1920/sec1.htm"
-  },
-  {
-   "id": "f-carpenter-dam",
-   "bank": "hs-0121",
-   "key": "Carpenter Dam|1931",
-   "text": "Carpenter Dam, completed in 1931, formed Lake Hamilton.",
-   "source": "Wikipedia: Lake Hamilton",
-   "sourceUrl": "https://en.wikipedia.org/wiki/Lake_Hamilton_(Arkansas)"
-  },
-  {
-   "id": "f-lamar",
-   "bank": "hs-0077",
-   "key": "The Lamar",
-   "text": "The Lamar's opening in 1923 completed Bathhouse Row.",
-   "source": "NPS: History & Culture",
-   "sourceUrl": "https://www.nps.gov/hosp/learn/historyculture/index.htm"
-  },
-  {
-   "id": "f-redistribution",
-   "bank": "hs-0038",
-   "key": "More than 32,000",
-   "text": "During World War II an Army redistribution center in Hot Springs processed more than 32,000 service members.",
-   "source": "Wikipedia: Hot Springs, Arkansas",
-   "sourceUrl": "https://en.wikipedia.org/wiki/Hot_Springs,_Arkansas"
-  },
-  {
-   "id": "f-polio",
-   "bank": "hs-0035",
-   "key": "Polio",
-   "text": "In World War II the Army-Navy Hospital was the nation's largest center for adults with polio.",
-   "source": "Encyclopedia of Arkansas: Army-Navy Hospital",
-   "sourceUrl": "https://encyclopediaofarkansas.net/entries/Arkansas-Career-Training-Institute-2236"
-  },
-  {
-   "id": "f-mcmath",
-   "bank": "hs-0308",
-   "key": "Sid McMath",
-   "text": "In 1946 the WWII veteran Sid McMath led the GI Revolt against the town's political machine.",
-   "source": "Encyclopedia of Arkansas: GI Revolt",
-   "sourceUrl": "https://encyclopediaofarkansas.net/entries/GI-Revolt-4157"
-  },
-  {
-   "id": "f-mclaughlin",
-   "bank": "hs-0311",
-   "key": "Leo P. McLaughlin",
-   "text": "The GI Revolt toppled the political machine of longtime Mayor Leo P. McLaughlin.",
-   "source": "Wikipedia: Hot Springs, Arkansas",
-   "sourceUrl": "https://en.wikipedia.org/wiki/Hot_Springs,_Arkansas"
-  },
-  {
-   "id": "f-blakely",
-   "bank": "hs-0126",
-   "key": "Blakely Mountain Dam",
-   "text": "Blakely Mountain Dam creates Lake Ouachita, which flooded farm communities in the 1950s.",
-   "source": "Wikipedia: Lake Ouachita",
-   "sourceUrl": "https://en.wikipedia.org/wiki/Lake_Ouachita"
-  },
-  {
-   "id": "f-breland",
-   "bank": "hs-0333",
-   "key": "Keller and Marian Breland",
-   "text": "Keller and Marian Breland, a husband-and-wife team, opened the IQ Zoo in Hot Springs.",
-   "source": "Encyclopedia of Arkansas: Keller Breland",
-   "sourceUrl": "https://encyclopediaofarkansas.net/entries/keller-bramwell-breland-2530/"
-  },
-  {
-   "id": "f-skinner",
-   "bank": "hs-0325",
-   "key": "B. F. Skinner",
-   "text": "The IQ Zoo founders had trained under the psychologist B. F. Skinner.",
-   "source": "Encyclopedia of Arkansas: Keller Breland",
-   "sourceUrl": "https://encyclopediaofarkansas.net/entries/keller-bramwell-breland-2530/"
-  },
-  {
-   "id": "f-fordyce-1962",
-   "bank": "hs-0089",
-   "key": "The Fordyce",
-   "text": "In 1962 the Fordyce became the first Bathhouse Row bathhouse to close.",
-   "source": "NPS: History & Culture",
-   "sourceUrl": "https://www.nps.gov/hosp/learn/historyculture/index.htm"
-  },
-  {
-   "id": "f-rail-1964",
-   "bank": "hs-0044",
-   "key": "1964",
-   "text": "Passenger rail service to Hot Springs ended in 1964.",
-   "source": "Encyclopedia of Arkansas: Hot Springs Railroad",
-   "sourceUrl": "https://encyclopediaofarkansas.net/entries/hot-springs-railroad-14157"
-  },
-  {
-   "id": "f-desegregated",
-   "bank": "hs-0047",
-   "key": "1965",
-   "text": "The bathhouses were desegregated in 1965.",
-   "source": "Encyclopedia of Arkansas: Hot Springs (city)",
-   "sourceUrl": "https://encyclopediaofarkansas.net/entries/hot-springs-887/"
-  },
-  {
-   "id": "f-1967",
-   "bank": "hs-0049",
-   "key": "1967",
-   "text": "Gov. Winthrop Rockefeller ended the casino revival in 1967.",
-   "source": "Wikipedia: Sid McMath",
-   "sourceUrl": "https://en.wikipedia.org/wiki/Sid_McMath"
-  },
-  {
-   "id": "f-register-1974",
-   "bank": "hs-0100",
-   "key": "Nov. 13, 1974",
-   "text": "Bathhouse Row was listed on the National Register of Historic Places on Nov. 13, 1974.",
-   "source": "NPS: History & Culture",
-   "sourceUrl": "https://www.nps.gov/hosp/learn/historyculture/index.htm"
-  },
-  {
-   "id": "f-baths-1979",
-   "bank": "hs-0050",
-   "key": "About 96,000",
-   "text": "By 1979 the Row gave about 96,000 baths a year, as bathhouses closed one by one.",
-   "source": "Wikipedia: Bathhouse Row",
-   "sourceUrl": "https://en.wikipedia.org/wiki/Bathhouse_Row"
-  },
-  {
-   "id": "f-visitor-center",
-   "bank": "hs-0096",
-   "key": "1989",
-   "text": "In 1989 the Fordyce reopened as the park's visitor center.",
-   "source": "Wikipedia: Bathhouse Row",
-   "sourceUrl": "https://en.wikipedia.org/wiki/Bathhouse_Row"
-  },
-  {
-   "id": "f-superior",
-   "bank": "hs-0102",
-   "key": "The Superior",
-   "text": "The Superior, a 1916 bathhouse, now houses a brewery and distillery.",
-   "source": "Wikipedia: Hot Springs, Arkansas",
-   "sourceUrl": "https://en.wikipedia.org/wiki/Hot_Springs,_Arkansas"
-  },
-  {
-   "id": "f-quapaw-spa",
-   "bank": "hs-0103",
-   "key": "July 2008",
-   "text": "Quapaw Baths & Spa opened in the restored Quapaw Bathhouse in July 2008.",
-   "source": "Wikipedia: Bathhouse Row",
-   "sourceUrl": "https://en.wikipedia.org/wiki/Bathhouse_Row"
-  },
-  {
-   "id": "f-majestic-fire",
-   "bank": "hs-0051",
-   "key": "Feb. 27, 2014",
-   "text": "The Majestic Hotel caught fire on Feb. 27, 2014.",
-   "source": "Encyclopedia of Arkansas: Hot Springs (city)",
-   "sourceUrl": "https://encyclopediaofarkansas.net/entries/hot-springs-887/"
-  },
-  {
-   "id": "f-47-springs",
-   "bank": "hs-0148",
-   "key": "47",
-   "text": "USGS says 47 hot springs emerge from Hot Springs Mountain.",
-   "source": "USGS: Hot Springs National Park",
-   "sourceUrl": "https://www.usgs.gov/geology-and-ecology-of-national-parks/hot-springs-national-park"
-  },
-  {
-   "id": "f-4400-years",
-   "bank": "hs-0145",
-   "key": "About 4,400 years",
-   "text": "Dating shows most of the thermal water is about 4,400 years old.",
-   "source": "USGS Professional Paper 1044-C: Abstract (npshistory.com mirror)",
-   "sourceUrl": "https://npshistory.com/publications/geology/pp/1044-C/abstract.htm"
-  },
-  {
-   "id": "f-great-american-spa",
-   "bank": "hs-0512",
-   "key": "Great American Spa",
-   "text": "The bathing industry made Hot Springs known as the \"Great American Spa.\"",
-   "source": "NPS: History & Culture",
-   "sourceUrl": "https://www.nps.gov/hosp/learn/historyculture/index.htm"
-  },
-  {
-   "id": "f-temp-1804",
-   "bank": "hs-0114",
-   "key": "148–150°F",
-   "text": "The 1804 Dunbar–Hunter expedition measured the springs at about 148–150°F on average.",
-   "source": "Encyclopedia of Arkansas: Hunter-Dunbar Expedition",
-   "sourceUrl": "https://encyclopediaofarkansas.net/entries/hunter-dunbar-expedition-2205/"
-  },
-  {
-   "id": "f-desoto-legend",
-   "bank": "hs-0471",
-   "key": "There is no firm evidence he visited",
-   "text": "Legend says de Soto bathed here in 1541. Historians say there is no firm evidence he visited the springs.",
-   "source": "Encyclopedia of Arkansas: Garland County",
-   "sourceUrl": "https://encyclopediaofarkansas.net/entries/garland-county-770/",
-   "legend": true
-  },
-  {
-   "id": "f-bottling-1871",
-   "bank": "hs-0348",
-   "key": "Mountain Valley Spring Water",
-   "text": "Mountain Valley Spring Water, a Hot Springs bottled water, dates to 1871.",
-   "source": "Encyclopedia of Arkansas: Mountain Valley Spring Water",
-   "sourceUrl": "https://encyclopediaofarkansas.net/entries/mountain-valley-spring-water-2148/"
-  },
-  {
-   "id": "f-cold-spring",
-   "bank": "hs-0394",
-   "key": "Cold",
-   "text": "Mountain Valley water comes out of its spring cold, not hot.",
-   "source": "NWA Democrat-Gazette (2021): High water mark",
-   "sourceUrl": "https://www.nwaonline.com/news/2021/aug/03/high-water-mark/"
-  },
-  {
-   "id": "f-course",
-   "bank": "hs-0022",
-   "key": "21",
-   "text": "In 1920 a standard prescribed \"course\" was 21 baths.",
-   "source": "NPS 1920 brochure",
-   "sourceUrl": "https://npshistory.com/publications/hosp/brochures/1920/sec1.htm"
-  },
-  {
-   "id": "f-free-bathhouse",
-   "bank": "hs-0019",
-   "key": "Dec. 16, 1878",
-   "text": "Congress passed the act establishing the Government Free Bathhouse on Dec. 16, 1878.",
-   "source": "NPS 1920 brochure",
-   "sourceUrl": "https://npshistory.com/publications/hosp/brochures/1920/sec1.htm"
-  },
-  {
-   "id": "f-narrow-gauge",
-   "bank": "hs-0015",
-   "key": "3 feet (narrow gauge)",
-   "text": "The original Hot Springs Railroad from Malvern ran on 3 feet (narrow gauge) track.",
-   "source": "Encyclopedia of Arkansas: Hot Springs Railroad",
-   "sourceUrl": "https://encyclopediaofarkansas.net/entries/hot-springs-railroad-14157"
-  },
-  {
-   "id": "f-mcclards",
-   "bank": "hs-0354",
-   "key": "A guest traded it for an unpaid bill",
-   "text": "The McClard family got its famous barbecue sauce recipe when a guest traded it for an unpaid bill.",
-   "source": "Encyclopedia of Arkansas: McClard's Bar-B-Q",
-   "sourceUrl": "https://encyclopediaofarkansas.net/entries/mcclards-bar-b-q-4230/"
-  },
-  {
-   "id": "f-mcclards-goat",
-   "bank": "hs-0353",
-   "key": "Goat",
-   "text": "By 1928 the McClards were cooking goat with their barbecue sauce.",
-   "source": "Encyclopedia of Arkansas: McClard's Bar-B-Q",
-   "sourceUrl": "https://encyclopediaofarkansas.net/entries/mcclards-bar-b-q-4230/"
-  },
-  {
-   "id": "f-kths",
-   "bank": "hs-0319",
-   "key": "Campbell Arnoux",
-   "text": "Campbell Arnoux was the founding director of KTHS radio, from 1924 to 1934.",
-   "source": "Encyclopedia of Arkansas: KTHS Radio Station",
-   "sourceUrl": "https://encyclopediaofarkansas.net/entries/kths-radio-station-6423/"
-  },
-  {
-   "id": "f-200-islands",
-   "bank": "hs-0127",
-   "key": "About 200",
-   "text": "Lake Ouachita has about 200 islands.",
-   "source": "Wikipedia: Lake Ouachita",
-   "sourceUrl": "https://en.wikipedia.org/wiki/Lake_Ouachita"
-  },
-  {
-   "id": "f-140",
-   "bank": "hs-0364",
-   "key": "About 140°F",
-   "text": "Thermal water reaches the Superior Bathhouse Brewery at about 140°F.",
-   "source": "All About Beer: Superior Bathhouse Brewery",
-   "sourceUrl": "https://allaboutbeer.com/superior-bathhouse-brewery/"
-  },
-  {
-   "id": "f-maurice",
-   "bank": "hs-0052",
-   "key": "About $31.6 million",
-   "text": "The Maurice Bathhouse restoration, which broke ground in August 2025, is about $31.6 million.",
-   "source": "NPS: Groundbreaking celebrated for Maurice Bathhouse rehabilitation",
-   "sourceUrl": "https://www.nps.gov/hosp/learn/news/maurice-gaoa-groundbreaking.htm"
-  },
-  {
-   "id": "f-tubs",
-   "bank": "hs-0378",
-   "key": "Bathtubs",
-   "text": "Each year teams race bathtubs down Central Avenue.",
-   "source": "Visit Hot Springs: 2020 version of the World Championship Running of the Tubs (press release)",
-   "sourceUrl": "https://hotsprings.org/media-room/press-releases/2020-version-world-championship-running-tubs-batht/"
-  },
-  {
-   "id": "f-tubs-2006",
-   "bank": "hs-0379",
-   "key": "2006",
-   "text": "The Running of the Tubs began in 2006, per its organizers.",
-   "source": "Visit Hot Springs: Running of the Tubs 2026 press release",
-   "sourceUrl": "https://hotsprings.org/media-room/press-releases/first-ever-running-of-the-tubs-website-provides-registration-fun-and-background-information-for-2026-world-championship-bathtub/"
-  },
-  {
-   "id": "f-bridge-street",
-   "bank": "hs-0368",
-   "key": "Bridge Street",
-   "text": "The World's Shortest St. Patrick's Day Parade runs on Bridge Street.",
-   "source": "Visit Hot Springs: History of the shortest St. Patrick's parade",
-   "sourceUrl": "https://hotsprings.org/blog/history-of-the-worlds-shortest-st-patricks-day-parade/"
-  },
-  {
-   "id": "f-razor-stone",
-   "bank": "hs-0143",
-   "key": "Razor stone",
-   "text": "Novaculite, the Ouachita whetstone rock, takes its name from the Latin for \"razor stone.\"",
-   "source": "Encyclopedia of Arkansas: Novaculite",
-   "sourceUrl": "https://encyclopediaofarkansas.net/entries/novaculite-2220/"
-  },
-  {
-   "id": "f-whetstone-1818",
-   "bank": "hs-0012",
-   "key": "1818",
-   "text": "Novaculite whetstone mining began in the Hot Springs region as early as 1818.",
-   "source": "Arkansas Archeological Survey: Arkansas Novaculite (PDF)",
-   "sourceUrl": "https://archeology.uark.edu/wp-content/uploads/2026/04/ArkansasNovaculite-rev_acc.pdf"
-  },
-  {
-   "id": "f-jefferson",
-   "bank": "hs-0003",
-   "key": "Thomas Jefferson",
-   "text": "President Thomas Jefferson sent William Dunbar and George Hunter to explore the Ouachita country and its hot springs.",
-   "source": "Encyclopedia of Arkansas: Hunter-Dunbar Expedition",
-   "sourceUrl": "https://encyclopediaofarkansas.net/entries/hunter-dunbar-expedition-2205/"
-  },
-  {
-   "id": "f-four-springs",
-   "bank": "hs-0113",
-   "key": "Four",
-   "text": "Dunbar and Hunter counted four principal springs and two lesser ones in 1804.",
-   "source": "Encyclopedia of Arkansas: Hunter-Dunbar Expedition",
-   "sourceUrl": "https://encyclopediaofarkansas.net/entries/hunter-dunbar-expedition-2205/"
-  },
-  {
-   "id": "f-novaculite-quarries",
-   "bank": "hs-0472",
-   "key": "Novaculite",
-   "text": "Native peoples quarried novaculite in the hills around Hot Springs for thousands of years.",
-   "source": "Encyclopedia of Arkansas: Garland County",
-   "sourceUrl": "https://encyclopediaofarkansas.net/entries/Garland-County-770"
-  },
-  {
-   "id": "f-capital-1862",
-   "bank": "hs-0009",
-   "key": "May 6 to July 14, 1862",
-   "text": "Hot Springs was the capital of Arkansas from May 6 to July 14, 1862.",
-   "source": "Encyclopedia of Arkansas: Garland County",
-   "sourceUrl": "https://encyclopediaofarkansas.net/entries/garland-county-770/"
-  },
-  {
-   "id": "f-crystal",
-   "bank": "hs-0063",
-   "key": "The Crystal Bathhouse",
-   "text": "The Crystal Bathhouse, opened in 1904, was the first built exclusively for African Americans.",
-   "source": "NPS: African Americans and the Hot Springs Baths",
-   "sourceUrl": "https://www.nps.gov/articles/000/african-americans-and-the-hot-springs-baths.htm"
-  },
-  {
-   "id": "f-pythian",
-   "bank": "hs-0031",
-   "key": "The Knights of Pythias",
-   "text": "The Knights of Pythias opened the Pythian Bathhouse and Sanitarium in 1914.",
-   "source": "NPS: African Americans and the Hot Springs Baths",
-   "sourceUrl": "https://www.nps.gov/articles/000/african-americans-and-the-hot-springs-baths.htm"
-  },
-  {
-   "id": "f-army-navy",
-   "bank": "hs-0024",
-   "key": "Joint Army-Navy general hospital",
-   "text": "The Army and Navy Hospital that opened in 1887 was the nation's first joint Army-Navy general hospital.",
-   "source": "Encyclopedia of Arkansas: Army-Navy Hospital",
-   "sourceUrl": "https://encyclopediaofarkansas.net/entries/Arkansas-Career-Training-Institute-2236"
-  },
-  {
-   "id": "f-gator-farm",
-   "bank": "hs-0298",
-   "key": "H. L. Campbell",
-   "text": "H. L. Campbell founded the alligator farm in 1902.",
-   "source": "Wikipedia: Arkansas Alligator Farm and Petting Zoo",
-   "sourceUrl": "https://en.wikipedia.org/wiki/Arkansas_Alligator_Farm_and_Petting_Zoo"
-  },
-  {
-   "id": "f-7200",
-   "bank": "hs-0122",
-   "key": "About 7,200",
-   "text": "Lake Hamilton covers about 7,200 acres.",
-   "source": "Wikipedia: Lake Hamilton",
-   "sourceUrl": "https://en.wikipedia.org/wiki/Lake_Hamilton_(Arkansas)"
-  },
-  {
-   "id": "f-remmel",
-   "bank": "hs-0123",
-   "key": "Remmel Dam|1924",
-   "text": "Remmel Dam, built in 1924, forms Lake Catherine.",
-   "source": "Wikipedia: Lake Catherine",
-   "sourceUrl": "https://en.wikipedia.org/wiki/Lake_Catherine_(Arkansas)"
-  },
-  {
-   "id": "f-ccc",
-   "bank": "hs-0042",
-   "key": "The Civilian Conservation Corps",
-   "text": "The Civilian Conservation Corps built Lake Catherine State Park.",
-   "source": "Wikipedia: Lake Catherine State Park",
-   "sourceUrl": "https://en.wikipedia.org/wiki/Lake_Catherine_State_Park"
-  },
-  {
-   "id": "f-three-sisters",
-   "bank": "hs-0128",
-   "key": "Three Sisters Springs",
-   "text": "Lake Ouachita State Park preserves the historic Three Sisters Springs.",
-   "source": "Wikipedia: Lake Ouachita State Park",
-   "sourceUrl": "https://en.wikipedia.org/wiki/Lake_Ouachita_State_Park"
-  },
-  {
-   "id": "f-garvan-1956",
-   "bank": "hs-0324",
-   "key": "Verna Cook Garvan",
-   "text": "Verna Cook Garvan began developing Garvan Woodland Gardens in 1956.",
-   "source": "Wikipedia: Garvan Woodland Gardens",
-   "sourceUrl": "https://en.wikipedia.org/wiki/Garvan_Woodland_Gardens"
-  },
-  {
-   "id": "f-quartz",
-   "bank": "hs-0129",
-   "key": "1967",
-   "text": "Quartz crystal became Arkansas's state mineral in 1967.",
-   "source": "Encyclopedia of Arkansas: Official State Mineral",
-   "sourceUrl": "https://encyclopediaofarkansas.net/entries/official-state-mineral-3138/"
-  },
-  {
-   "id": "f-hale",
-   "bank": "hs-0101",
-   "key": "The Hale",
-   "text": "The Hale is now the nine-suite Hotel Hale.",
-   "source": "NPS: Hale Bathhouse",
-   "sourceUrl": "https://www.nps.gov/places/hale-bathhouse.htm"
-  },
-  {
-   "id": "f-ozark",
-   "bank": "hs-0104",
-   "key": "Hot Springs NP Cultural Center",
-   "text": "The Ozark Bathhouse now houses the Hot Springs NP Cultural Center.",
-   "source": "Wikipedia: Bathhouse Row",
-   "sourceUrl": "https://en.wikipedia.org/wiki/Bathhouse_Row"
-  },
-  {
-   "id": "f-garvan-210",
-   "bank": "hs-0141",
-   "key": "210",
-   "text": "Garvan Woodland Gardens on Lake Hamilton covers 210 acres.",
-   "source": "Wikipedia: Garvan Woodland Gardens",
-   "sourceUrl": "https://en.wikipedia.org/wiki/Garvan_Woodland_Gardens"
-  },
-  {
-   "id": "f-143",
-   "bank": "hs-0147",
-   "key": "About 143°F",
-   "text": "The thermal spring water averages about 143°F.",
-   "source": "NPS: Maurice Historic Display Spring",
-   "sourceUrl": "https://www.nps.gov/places/maurice-historic-display-spring.htm"
-  },
-  {
-   "id": "f-700000",
-   "bank": "hs-0146",
-   "key": "Over 700,000 gallons",
-   "text": "The National Park Service says the springs produce over 700,000 gallons a day.",
-   "source": "NPS: Maurice Historic Display Spring",
-   "sourceUrl": "https://www.nps.gov/places/maurice-historic-display-spring.htm"
-  },
-  {
-   "id": "f-tufa",
-   "bank": "hs-0156",
-   "key": "Tufa (travertine)",
-   "text": "The white-to-tan rock around the spring openings is called tufa (travertine).",
-   "source": "Wikipedia: Hot Springs National Park",
-   "sourceUrl": "https://en.wikipedia.org/wiki/Hot_Springs_National_Park"
-  },
-  {
-   "id": "f-faults",
-   "bank": "hs-0151",
-   "key": "Alpha and beta",
-   "text": "Two faults, the alpha and beta, help carry the heated water back to the surface.",
-   "source": "NPS: Maurice Historic Display Spring",
-   "sourceUrl": "https://www.nps.gov/places/maurice-historic-display-spring.htm"
-  },
-  {
-   "id": "f-cold-ozone",
-   "bank": "hs-0157",
-   "key": "Happy Hollow and Whittington",
-   "text": "The park's two cold springs, Happy Hollow and Whittington, are treated with ozone filtration.",
-   "source": "Wikipedia: Hot Springs National Park",
-   "sourceUrl": "https://en.wikipedia.org/wiki/Hot_Springs_National_Park"
-  },
-  {
-   "id": "f-maple-leaf-oak",
-   "bank": "hs-0170",
-   "key": "Maple-leaf oak",
-   "text": "The maple-leaf oak grows naturally at only four sites in the world, all in the Ouachitas.",
-   "source": "Wikipedia: Ouachita Mountains",
-   "sourceUrl": "https://en.wikipedia.org/wiki/Ouachita_Mountains"
-  },
-  {
-   "id": "c-archaeology",
-   "corpus": {
-    "file": "research/history-timeline.md",
-    "contains": [
-     "for over 10,000 years",
-     "92 known archaeological sites",
-     "Absentee Shawnee Tribe, the Caddo Nation, the Osage Nation and the Quapaw Tribe"
-    ]
-   },
-   "text": "People have lived here for over 10,000 years. The park has 92 known archaeological sites, including old novaculite quarries. The park consults with the Absentee Shawnee Tribe, the Caddo Nation, the Osage Nation and the Quapaw Tribe.",
-   "source": "NPS: Archeology (via research/history-timeline.md)",
-   "sourceUrl": "https://www.nps.gov/hosp/learn/historyculture/archeology.htm"
-  },
-  {
-   "id": "f-enslaved-1860",
-   "corpus": {
-    "file": "research/history-timeline.md",
-    "contains": [
-     "613 enslaved people out of 5,635 residents",
-     "many worked in hotels"
-    ]
-   },
-   "text": "In 1860, 613 of Hot Spring County's 5,635 residents were enslaved, and many worked in the resort's hotels.",
-   "source": "Encyclopedia of Arkansas: Hot Springs (city) (via research/history-timeline.md)",
-   "sourceUrl": "https://encyclopediaofarkansas.net/entries/hot-springs-887/"
-  },
-  {
-   "id": "c-best-hours",
-   "corpus": {
-    "file": "research/history-timeline.md",
-    "contains": [
-     "not during the 10 a.m.–noon hours doctors considered best",
-     "mostly African American until the 1980s"
-    ]
-   },
-   "text": "In the 1880s Black bathers could buy tickets at a few bathhouses, but not during the 10 a.m.–noon hours doctors considered best. Bath attendants were mostly African American until the 1980s.",
-   "source": "NPS: African Americans and the Hot Springs Baths (via research/history-timeline.md)",
-   "sourceUrl": "https://www.nps.gov/articles/000/african-americans-and-the-hot-springs-baths.htm"
-  }
+  { "id": "g-acres", "corpus": { "file": "research/garvan-layout.md", "contains": ["210-acre woodland botanical garden", "4.5 miles of shoreline"] },
+    "text": "Garvan Woodland Gardens is a 210-acre woodland botanical garden on a forested peninsula in Lake Hamilton, with about 4.5 miles of shoreline.",
+    "source": "Wikipedia: Garvan Woodland Gardens", "sourceUrl": "https://en.wikipedia.org/wiki/Garvan_Woodland_Gardens" },
+  { "id": "g-university", "corpus": { "file": "research/garvan-layout.md", "contains": ["owned by the University of Arkansas", "Fay Jones School of Architecture and Design"] },
+    "text": "The garden is owned by the University of Arkansas and run through its Fay Jones School of Architecture and Design.",
+    "source": "Encyclopedia of Arkansas: Garvan Woodland Gardens", "sourceUrl": "https://encyclopediaofarkansas.net/entries/garvan-woodland-gardens-4197/" },
+  { "id": "g-44acres", "corpus": { "file": "research/garvan-layout.md", "contains": ["About 44 acres are the developed tour area"] },
+    "text": "About 44 acres are the developed tour area; the rest of the peninsula is pine, oak and hickory woodland.",
+    "source": "Encyclopedia of Arkansas: Garvan Woodland Gardens", "sourceUrl": "https://encyclopediaofarkansas.net/entries/garvan-woodland-gardens-4197/" },
+  { "id": "g-verna-1956", "corpus": { "file": "research/garvan-layout.md", "contains": ["began the garden in 1956", "laid out the paths and chose the plants herself"] },
+    "text": "Verna Cook Garvan began the garden in 1956. Self-taught, she laid out the paths and chose the plants herself over about 40 years.",
+    "source": "Encyclopedia of Arkansas: Garvan Woodland Gardens", "sourceUrl": "https://encyclopediaofarkansas.net/entries/garvan-woodland-gardens-4197/" },
+  { "id": "g-cook-timber", "corpus": { "file": "research/garvan-layout.md", "contains": ["Arthur B. Cook of Malvern bought it for timber", "made the land a peninsula"] },
+    "text": "In the 1920s Arthur B. Cook of Malvern bought the land for timber. Carpenter Dam then created Lake Hamilton, which made it a peninsula.",
+    "source": "Encyclopedia of Arkansas: Garvan Woodland Gardens", "sourceUrl": "https://encyclopediaofarkansas.net/entries/garvan-woodland-gardens-4197/" },
+  { "id": "g-trust-1985", "corpus": { "file": "research/garvan-layout.md", "contains": ["In 1985 she signed a trust agreement", "She died in 1993"] },
+    "text": "In 1985 Verna Garvan signed a trust agreement giving the property to the University of Arkansas landscape architecture program. She died in 1993.",
+    "source": "Encyclopedia of Arkansas: Garvan Woodland Gardens", "sourceUrl": "https://encyclopediaofarkansas.net/entries/garvan-woodland-gardens-4197/" },
+  { "id": "g-opened-2002", "corpus": { "file": "research/garvan-layout.md", "contains": ["renamed Garvan Woodland Gardens", "dedicated on April 7, 2002"] },
+    "text": "Building the public garden began in March 2000, when it was renamed Garvan Woodland Gardens. It was dedicated on April 7, 2002.",
+    "source": "Wikipedia: Garvan Woodland Gardens", "sourceUrl": "https://en.wikipedia.org/wiki/Garvan_Woodland_Gardens" },
+  { "id": "g-visitors", "corpus": { "file": "research/garvan-layout.md", "contains": ["More than 125,000 visitors come each year"] },
+    "text": "More than 125,000 visitors come to the garden each year.",
+    "source": "Encyclopedia of Arkansas: Garvan Woodland Gardens", "sourceUrl": "https://encyclopediaofarkansas.net/entries/garvan-woodland-gardens-4197/" },
+  { "id": "g-chapel", "corpus": { "file": "research/garvan-layout.md", "contains": ["Opened in September 2006, designed by Maurice Jennings and David McKee", "57-foot ceiling"] },
+    "text": "Anthony Chapel opened in September 2006. Designed by Maurice Jennings and David McKee, it is wood, glass and steel with yellow-pine beams and a 57-foot ceiling.",
+    "source": "Garvan Woodland Gardens: Anthony Chapel", "sourceUrl": "https://www.garvangardens.org/weddings/anthony-chapel/" },
+  { "id": "g-carillon", "corpus": { "file": "research/garvan-layout.md", "contains": ["Anthony Family Carillon is a bell tower of 16 copper-clad"] },
+    "text": "The Anthony Family Carillon beside the chapel is a bell tower of 16 copper-clad columns.",
+    "source": "Garvan Woodland Gardens: Anthony Chapel", "sourceUrl": "https://www.garvangardens.org/weddings/anthony-chapel/" },
+  { "id": "g-pavilion", "corpus": { "file": "research/garvan-layout.md", "contains": ["By E. Fay Jones and Maurice Jennings", "oculus shaped like an unfolding flower"] },
+    "text": "The Verna C. Garvan Pavilion, by E. Fay Jones and Maurice Jennings, is open-air sandstone and redwood under a glass roof with an oculus shaped like an unfolding flower.",
+    "source": "Garvan Woodland Gardens: Garvan Pavilion and Terrace", "sourceUrl": "https://www.garvangardens.org/weddings/garvan-pavilion-and-terrace/" },
+  { "id": "g-pinewind", "corpus": { "file": "research/garvan-layout.md", "contains": ["about 4 acres in a natural ravine", "12-foot waterfall and a half-acre koi pond"] },
+    "text": "The Garden of the Pine Wind is a Japanese garden of about 4 acres in a natural ravine, with cascades, pools, a 12-foot waterfall and a half-acre koi pond.",
+    "source": "Wikipedia: Garvan Woodland Gardens", "sourceUrl": "https://en.wikipedia.org/wiki/Garvan_Woodland_Gardens" },
+  { "id": "g-fullmoon", "corpus": { "file": "research/garvan-layout.md", "contains": ["Bridge of the Full Moon (stone, 11 feet high, with a circular"] },
+    "text": "The Joy Manning Scott Bridge of the Full Moon is a stone bridge 11 feet high with a circular opening.",
+    "source": "Wikipedia: Garvan Woodland Gardens", "sourceUrl": "https://en.wikipedia.org/wiki/Garvan_Woodland_Gardens" },
+  { "id": "g-sunrise", "corpus": { "file": "research/garvan-layout.md", "contains": ["named by the mayor of Hanamaki, Japan, Hot Springs' sister city"] },
+    "text": "The Sunrise Bridge was named by the mayor of Hanamaki, Japan, Hot Springs' sister city.",
+    "source": "Wikipedia: Garvan Woodland Gardens", "sourceUrl": "https://en.wikipedia.org/wiki/Garvan_Woodland_Gardens" },
+  { "id": "g-cloud", "corpus": { "file": "research/garvan-layout.md", "contains": ["white azaleas are clipped to look like clouds"] },
+    "text": "At the Floating Cloud Bridge, white azaleas are clipped to look like clouds.",
+    "source": "Wikipedia: Garvan Woodland Gardens", "sourceUrl": "https://en.wikipedia.org/wiki/Garvan_Woodland_Gardens" },
+  { "id": "g-bonsai", "corpus": { "file": "research/garvan-layout.md", "contains": ["nearly three dozen bonsai and penjing"] },
+    "text": "The Weyerhaeuser Bonsai Garden by the entrance shows nearly three dozen bonsai and penjing.",
+    "source": "Stephen Travels: Garvan Woodland Gardens", "sourceUrl": "https://stephentravels.com/the-great-outdoors/garvan-woodland-gardens/" },
+  { "id": "g-canopy", "corpus": { "file": "research/garvan-layout.md", "contains": ["120-foot winding walkway on stone piers about two stories up"] },
+    "text": "The Millsap Canopy Bridge is a 120-foot winding walkway on stone piers about two stories up, over Singing Springs Gorge.",
+    "source": "Stephen Travels: Garvan Woodland Gardens", "sourceUrl": "https://stephentravels.com/the-great-outdoors/garvan-woodland-gardens/" },
+  { "id": "g-children", "corpus": { "file": "research/garvan-layout.md", "contains": ["cave behind a 12-foot waterfall", "450-foot elevated walkway"] },
+    "text": "The Evans Children's Adventure Garden has a cave behind a 12-foot waterfall, a rock maze, wading pools and a 450-foot elevated walkway.",
+    "source": "Stephen Travels: Garvan Woodland Gardens", "sourceUrl": "https://stephentravels.com/the-great-outdoors/garvan-woodland-gardens/" },
+  { "id": "g-treehouse", "corpus": { "file": "research/garvan-layout.md", "contains": ["By Modus Studio of Fayetteville", "June 30, 2018"] },
+    "text": "The Bob and Sunny Evans Tree House, by Modus Studio of Fayetteville in steel and heat-treated pine, opened June 30, 2018.",
+    "source": "Dezeen: Garvan Woodland Gardens treehouse", "sourceUrl": "https://www.dezeen.com/?p=1402721" },
+  { "id": "g-hixson", "corpus": { "file": "research/garvan-layout.md", "contains": ["45 acres of dense forest on the north side", "Birdsong Trail"] },
+    "text": "The Hixson Family Nature Preserve is 45 acres of dense forest on the north side, with the Birdsong Trail and bird feeding stations.",
+    "source": "TravelAwaits: Garvan Woodland Gardens", "sourceUrl": "https://www.travelawaits.com/2562287/garvan-woodland-gardens/" },
+  { "id": "g-perry", "corpus": { "file": "research/garvan-layout.md", "contains": ["The westernmost point: a flagstone terrace over Lake Hamilton"] },
+    "text": "The Perry Wildflower Overlook is the westernmost point: a flagstone terrace over Lake Hamilton beside a wildflower meadow.",
+    "source": "Garvan Woodland Gardens: Perry Wildflower Overlook", "sourceUrl": "https://www.garvangardens.org/weddings/perry-wildflower-overlook/" },
+  { "id": "g-train", "corpus": { "file": "research/garvan-layout.md", "contains": ["G-scale trains on 389 feet of track", "Malvern Brick & Tile"] },
+    "text": "The Sugg Model Train Garden runs G-scale trains on 389 feet of track, past miniatures of Malvern Brick & Tile and the Cook family's lumber mill.",
+    "source": "TravelAwaits: Garvan Woodland Gardens", "sourceUrl": "https://www.travelawaits.com/2562287/garvan-woodland-gardens/" },
+  { "id": "g-klipsch", "corpus": { "file": "research/garvan-layout.md", "contains": ["flagstone seating for 500"] },
+    "text": "The Klipsch Amphitheater sits in a natural hollow in the middle of the gardens, with flagstone seating for 500 under tall pines.",
+    "source": "Garvan Woodland Gardens amphitheater RFQ (2012)", "sourceUrl": "https://www.publicgardens.org/wp-content/uploads/2015/11/Garvan-Woodland-Gardens_RFP.pdf" },
+  { "id": "g-welcome", "corpus": { "file": "research/garvan-layout.md", "contains": ["Wood and native stone, designed by French Harris of Hot Springs"] },
+    "text": "The Pratt Welcome Center, in wood and native stone, was designed by French Harris of Hot Springs. It holds the gate, the GardenShop and the Magnolia Room.",
+    "source": "Encyclopedia of Arkansas: Garvan Woodland Gardens", "sourceUrl": "https://encyclopediaofarkansas.net/entries/garvan-woodland-gardens-4197/" },
+  { "id": "g-azaleas", "corpus": { "file": "research/garvan-layout.md", "contains": ["More than 160 varieties of azaleas"] },
+    "text": "The garden grows more than 160 varieties of azaleas.",
+    "source": "Wikipedia: Garvan Woodland Gardens", "sourceUrl": "https://en.wikipedia.org/wiki/Garvan_Woodland_Gardens" },
+  { "id": "g-camellias", "corpus": { "file": "research/garvan-layout.md", "contains": ["about 100 plants of 50 cultivars along a quarter-mile camellia trail"] },
+    "text": "About 100 camellias of 50 cultivars line a quarter-mile camellia trail; Garvan is on the American Camellia Trail.",
+    "source": "American Camellia Society: Garvan Woodland Gardens", "sourceUrl": "https://americancamellias.com/gardens-nurseries/american-camellia-trail-gardens/camellia-trail-gardens-by-state/arkansas/garvan-woodland-gardens" },
+  { "id": "g-george", "corpus": { "file": "research/garvan-layout.md", "contains": ["George can be", "usually near the Pratt Welcome Center"] },
+    "text": "A peacock named George roams the grounds, usually near the Pratt Welcome Center.",
+    "source": "Arkansas Tourism: Birding at Garvan Woodland Gardens", "sourceUrl": "https://www.arkansas.com/articles/birding-garvan-woodland-gardens" },
+  { "id": "g-dogs", "corpus": { "file": "research/garvan-layout.md", "contains": ["Dogs are welcome on a leash of 6 feet or less"] },
+    "text": "Dogs are welcome on a leash of 6 feet or less, but not in the chapel, the treehouse, the ponds or during Holiday Lights.",
+    "source": "Garvan Woodland Gardens: Admission", "sourceUrl": "https://www.garvangardens.org/?p=8" },
+  { "id": "g-tulips", "corpus": { "file": "research/garvan-operations.md", "contains": ["About 150,000 tulips of about 150 varieties", "hand-planted in designed shapes marked out with string"] },
+    "text": "The Tulip Extravaganza shows about 150,000 tulips of about 150 varieties, hand-planted in designed shapes marked out with string lines.",
+    "source": "The Sentinel-Record (2026)", "sourceUrl": "https://www.hotsr.com/news/2026/mar/09/watch-garvan-woodland-gardens-tulip-extravaganza/" },
+  { "id": "g-tulip-annual", "corpus": { "file": "research/garvan-operations.md", "contains": ["treated as annuals and replanted every year", "USDA Zone 8"] },
+    "text": "The tulips are treated as annuals and replanted every year: Hot Springs is now USDA Zone 8, too warm for most tulips to come back.",
+    "source": "The Sentinel-Record (2024)", "sourceUrl": "https://www.hotsr.com/news/2024/mar/21/watch-garvan-woodland-gardens-annual-tulip/" },
+  { "id": "g-tulip-january", "corpus": { "file": "research/garvan-operations.md", "contains": ["moved planting later, into January", "150,000 tulips in 10 days"] },
+    "text": "Staff moved tulip planting later, into January, so tulips would not bloom while the garden is closed. For the 2026 show the crew planted 150,000 tulips in 10 days.",
+    "source": "The Sentinel-Record", "sourceUrl": "https://www.hotsr.com/news/2026/mar/09/watch-garvan-woodland-gardens-tulip-extravaganza/" },
+  { "id": "g-tulip-freeze", "corpus": { "file": "research/garvan-operations.md", "contains": ["sustained hard freeze in the mid-20s"] },
+    "text": "Brief dips below freezing are fine for tulips, but a sustained hard freeze in the mid-20s °F damages the blooms.",
+    "source": "The Sentinel-Record (2024)", "sourceUrl": "https://www.hotsr.com/news/2024/mar/21/watch-garvan-woodland-gardens-annual-tulip/" },
+  { "id": "g-closed-january", "corpus": { "file": "research/garvan-operations.md", "contains": ["closed for all of January and reopens about February 1"] },
+    "text": "The garden closes for all of January and reopens about February 1.",
+    "source": "Garvan Woodland Gardens", "sourceUrl": "https://www.garvangardens.org/" },
+  { "id": "g-daffodils", "corpus": { "file": "research/garvan-operations.md", "contains": ["tens of thousands of daffodils bloom first"] },
+    "text": "Daffodil Days open the season: crocus, hyacinths and tens of thousands of daffodils bloom first after the garden reopens.",
+    "source": "University of Arkansas News", "sourceUrl": "https://news.uark.edu/articles/20087/garvan-woodland-gardens-reopens-in-february-with-daffodil-days-celebration" },
+  { "id": "g-fall-woodlands", "corpus": { "file": "research/garvan-operations.md", "contains": ["Japanese maples, chrysanthemums and fall annuals", "more than 8,000 mums"] },
+    "text": "Fall in the Woodlands brings Japanese maples, chrysanthemums and fall annuals; past displays used more than 8,000 mums.",
+    "source": "University of Arkansas News", "sourceUrl": "https://news.uark.edu/articles/22084/fall-heralded-with-chrysanthemum-blooms-at-garvan-woodland-gardens" },
+  { "id": "g-trashbash", "corpus": { "file": "research/garvan-operations.md", "contains": ["Lake Hamilton shoreline, road and ditch cleanup"] },
+    "text": "Trash Bash is an annual Lake Hamilton shoreline, road and ditch cleanup each fall.",
+    "source": "University of Arkansas News", "sourceUrl": "https://news.uark.edu/articles/39739/garvan-woodland-gardens-hosts-trash-bash-fall-festival-and-workshops-in-october" },
+  { "id": "g-lights", "corpus": { "file": "research/garvan-operations.md", "contains": ["November 21 to December 31", "about 5 to 9:30 PM"] },
+    "text": "Holiday Lights runs at night, about 5 to 9:30 PM; in 2026 from November 21 to December 31.",
+    "source": "Garvan Woodland Gardens: Holiday Lights", "sourceUrl": "https://www.garvangardens.org/holiday-lights" },
+  { "id": "g-rosetree", "corpus": { "file": "research/garvan-operations.md", "contains": ["roughly 50-foot tree with a 12 to 15 minute musical light show"] },
+    "text": "The Rose Tree is a roughly 50-foot tree with a 12 to 15 minute musical light show.",
+    "source": "KARK (2023)", "sourceUrl": "https://digital-release.kark.com/?p=1609266" },
+  { "id": "g-lights-contract", "corpus": { "file": "research/garvan-operations.md", "contains": ["installation begins around September 15", "about 150 pole trees, about 60 wrapped trees"] },
+    "text": "A 2026 university contract has Holiday Lights installation begin around September 15, with about 150 pole trees, 60 wrapped trees and 300 set pieces over about 20 acres.",
+    "source": "University of Arkansas bid IFB05142026", "sourceUrl": "https://app.govly.com/public/awards/5f97e28df8b088029ffefb4a929c2e47" },
+  { "id": "g-46weeks", "corpus": { "file": "research/garvan-operations.md", "contains": ["about 46 weeks of work a year", "Volunteers cannot operate machinery"] },
+    "text": "Holiday Lights takes about 46 weeks of work a year. Some elements weigh over 300 pounds, and volunteers cannot operate machinery.",
+    "source": "The Sentinel-Record (2024)", "sourceUrl": "https://www.hotsr.com/news/2024/sep/15/watch-all-hands-on-deck-garden-seeks-volunteers/" },
+  { "id": "g-weddings", "corpus": { "file": "research/garvan-operations.md", "contains": ["about 200 weddings a year"] },
+    "text": "The garden hosts about 200 weddings a year.",
+    "source": "University of Arkansas News", "sourceUrl": "https://news.uark.edu/articles/21249/anthony-chapel-at-garvan-woodland-gardens-named-one-of-the-coolest-places-to-get-married-" },
+  { "id": "g-storm-2012", "corpus": { "file": "research/garvan-operations.md", "contains": ["In 2012 the garden closed for the rest of the year after a winter storm"] },
+    "text": "In 2012 the garden closed for the rest of the year after a winter storm and power outages.",
+    "source": "KATV", "sourceUrl": "https://katv.com/archive/garvan-woodland-gardens-closed-the-rest-of-2012" }
  ]
 }

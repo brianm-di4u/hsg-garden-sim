@@ -1,27 +1,21 @@
 {
- "animal-cow": {
-  "file": "animal-cow.webp",
+ "animal-peacock": {
+  "file": "animal-peacock.webp",
   "w": 192,
-  "h": 159,
-  "bytes": 9478
+  "h": 193,
+  "bytes": 12824
  },
- "animal-goat": {
-  "file": "animal-goat.webp",
-  "w": 192,
-  "h": 192,
-  "bytes": 12188
+ "animal-peacock-fan": {
+  "file": "animal-peacock-fan.webp",
+  "w": 256,
+  "h": 250,
+  "bytes": 29676
  },
- "animal-hen": {
-  "file": "animal-hen.webp",
-  "w": 96,
-  "h": 97,
-  "bytes": 4788
- },
- "bin": {
-  "file": "bin.webp",
+ "animal-peahen": {
+  "file": "animal-peahen.webp",
   "w": 128,
-  "h": 122,
-  "bytes": 6872
+  "h": 141,
+  "bytes": 6690
  },
  "bld-barn": {
   "file": "bld-barn.webp",
@@ -29,299 +23,71 @@
   "h": 613,
   "bytes": 118902
  },
- "bld-brickstore": {
-  "file": "bld-brickstore.webp",
+ "bld-brides": {
+  "file": "bld-brides.webp",
+  "w": 448,
+  "h": 449,
+  "bytes": 46272
+ },
+ "bld-cafe": {
+  "file": "bld-cafe.webp",
+  "w": 512,
+  "h": 499,
+  "bytes": 60840
+ },
+ "bld-carillon": {
+  "file": "bld-carillon.webp",
+  "w": 192,
+  "h": 880,
+  "bytes": 32776
+ },
+ "bld-chapel": {
+  "file": "bld-chapel.webp",
   "w": 640,
-  "h": 666,
-  "bytes": 91378
+  "h": 974,
+  "bytes": 70218
  },
- "bld-brickstore4": {
-  "file": "bld-brickstore4.webp",
+ "bld-greenhouse": {
+  "file": "bld-greenhouse.webp",
+  "w": 512,
+  "h": 384,
+  "bytes": 48328
+ },
+ "bld-grooms": {
+  "file": "bld-grooms.webp",
+  "w": 448,
+  "h": 449,
+  "bytes": 46272
+ },
+ "bld-pavilion": {
+  "file": "bld-pavilion.webp",
   "w": 640,
-  "h": 638,
-  "bytes": 81982
+  "h": 498,
+  "bytes": 71728
  },
- "bld-cabin": {
-  "file": "bld-cabin.webp",
-  "w": 640,
-  "h": 619,
-  "bytes": 103946
+ "bld-restroom": {
+  "file": "bld-restroom.webp",
+  "w": 384,
+  "h": 266,
+  "bytes": 24086
  },
- "bld-club": {
-  "file": "bld-club.webp",
-  "w": 640,
-  "h": 638,
-  "bytes": 78344
+ "bld-storage": {
+  "file": "bld-storage.webp",
+  "w": 512,
+  "h": 395,
+  "bytes": 32750
  },
- "bld-court": {
-  "file": "bld-court.webp",
-  "w": 1280,
-  "h": 407,
-  "bytes": 83040
+ "bld-treehouse": {
+  "file": "bld-treehouse.webp",
+  "w": 512,
+  "h": 530,
+  "bytes": 59182
  },
- "bld-depot": {
-  "file": "bld-depot.webp",
-  "w": 640,
-  "h": 629,
-  "bytes": 86070
- },
- "bld-drivein": {
-  "file": "bld-drivein.webp",
-  "w": 640,
-  "h": 608,
-  "bytes": 67528
- },
- "bld-drug": {
-  "file": "bld-drug.webp",
-  "w": 640,
-  "h": 652,
-  "bytes": 100164
- },
- "bld-farm-brick": {
-  "file": "bld-farm-brick.webp",
+ "bld-welcome": {
+  "file": "bld-welcome.webp",
   "w": 768,
-  "h": 560,
-  "bytes": 103466
- },
- "bld-farm-bungalow": {
-  "file": "bld-farm-bungalow.webp",
-  "w": 768,
-  "h": 514,
-  "bytes": 83616
- },
- "bld-farm-cabin": {
-  "file": "bld-farm-cabin.webp",
-  "w": 768,
-  "h": 508,
-  "bytes": 95498
- },
- "bld-farm-plank": {
-  "file": "bld-farm-plank.webp",
-  "w": 768,
-  "h": 514,
-  "bytes": 96224
- },
- "bld-farm-ranch": {
-  "file": "bld-farm-ranch.webp",
-  "w": 768,
-  "h": 385,
-  "bytes": 53534
- },
- "bld-farm-restored": {
-  "file": "bld-farm-restored.webp",
-  "w": 768,
-  "h": 549,
-  "bytes": 77584
- },
- "bld-grandhotel": {
-  "file": "bld-grandhotel.webp",
-  "w": 1280,
-  "h": 827,
-  "bytes": 230220
- },
- "bld-hardware": {
-  "file": "bld-hardware.webp",
-  "w": 640,
-  "h": 635,
-  "bytes": 80518
- },
- "bld-house2": {
-  "file": "bld-house2.webp",
-  "w": 640,
-  "h": 674,
-  "bytes": 99260
- },
- "bld-house3": {
-  "file": "bld-house3.webp",
-  "w": 640,
-  "h": 666,
-  "bytes": 84644
- },
- "bld-house4": {
-  "file": "bld-house4.webp",
-  "w": 640,
-  "h": 634,
-  "bytes": 82866
- },
- "bld-house6": {
-  "file": "bld-house6.webp",
-  "w": 640,
-  "h": 630,
-  "bytes": 79150
- },
- "bld-hut": {
-  "file": "bld-hut.webp",
-  "w": 640,
-  "h": 581,
-  "bytes": 96698
- },
- "bld-market": {
-  "file": "bld-market.webp",
-  "w": 1280,
-  "h": 463,
-  "bytes": 119836
- },
- "bld-mill": {
-  "file": "bld-mill.webp",
-  "w": 640,
-  "h": 420,
-  "bytes": 62962
- },
- "bld-modernstore": {
-  "file": "bld-modernstore.webp",
-  "w": 640,
-  "h": 562,
-  "bytes": 63380
- },
- "bld-motel": {
-  "file": "bld-motel.webp",
-  "w": 1280,
-  "h": 612,
-  "bytes": 91852
- },
- "bld-plankbath": {
-  "file": "bld-plankbath.webp",
-  "w": 640,
-  "h": 657,
-  "bytes": 81874
- },
- "bld-plankbath2": {
-  "file": "bld-plankbath2.webp",
-  "w": 640,
-  "h": 646,
-  "bytes": 92590
- },
- "bld-plankhotel": {
-  "file": "bld-plankhotel.webp",
-  "w": 640,
-  "h": 650,
-  "bytes": 95742
- },
- "bld-plankstore": {
-  "file": "bld-plankstore.webp",
-  "w": 640,
-  "h": 601,
-  "bytes": 88318
- },
- "bld-radio": {
-  "file": "bld-radio.webp",
-  "w": 640,
-  "h": 641,
-  "bytes": 48088
- },
- "bld-ranchhouse": {
-  "file": "bld-ranchhouse.webp",
-  "w": 640,
-  "h": 450,
-  "bytes": 62314
- },
- "bld-row-1": {
-  "file": "bld-row-1.webp",
-  "w": 640,
-  "h": 627,
-  "bytes": 72874
- },
- "bld-row-1r": {
-  "file": "bld-row-1r.webp",
-  "w": 640,
-  "h": 612,
-  "bytes": 91626
- },
- "bld-row-2": {
-  "file": "bld-row-2.webp",
-  "w": 640,
-  "h": 607,
-  "bytes": 87374
- },
- "bld-row-2r": {
-  "file": "bld-row-2r.webp",
-  "w": 640,
-  "h": 609,
-  "bytes": 96252
- },
- "bld-row-3": {
-  "file": "bld-row-3.webp",
-  "w": 640,
-  "h": 620,
-  "bytes": 67486
- },
- "bld-row-3r": {
-  "file": "bld-row-3r.webp",
-  "w": 640,
-  "h": 620,
-  "bytes": 64734
- },
- "bld-row-4": {
-  "file": "bld-row-4.webp",
-  "w": 640,
-  "h": 607,
-  "bytes": 80356
- },
- "bld-row-4r": {
-  "file": "bld-row-4r.webp",
-  "w": 640,
-  "h": 608,
-  "bytes": 98460
- },
- "bld-stage": {
-  "file": "bld-stage.webp",
-  "w": 640,
-  "h": 642,
-  "bytes": 94892
- },
- "bld-tent": {
-  "file": "bld-tent.webp",
-  "w": 640,
-  "h": 628,
-  "bytes": 84662
- },
- "bld-tent2": {
-  "file": "bld-tent2.webp",
-  "w": 640,
-  "h": 661,
-  "bytes": 69808
- },
- "bld-twinhotel": {
-  "file": "bld-twinhotel.webp",
-  "w": 1280,
-  "h": 824,
-  "bytes": 153080
- },
- "bld-vicbath-1": {
-  "file": "bld-vicbath-1.webp",
-  "w": 640,
-  "h": 648,
-  "bytes": 102612
- },
- "bld-vicbath-2": {
-  "file": "bld-vicbath-2.webp",
-  "w": 640,
-  "h": 650,
-  "bytes": 90384
- },
- "bld-vicbath-3": {
-  "file": "bld-vicbath-3.webp",
-  "w": 640,
-  "h": 651,
-  "bytes": 90770
- },
- "bld-vicbath-free": {
-  "file": "bld-vicbath-free.webp",
-  "w": 640,
-  "h": 640,
-  "bytes": 92484
- },
- "bush": {
-  "file": "bush.webp",
-  "w": 160,
-  "h": 136,
-  "bytes": 11872
- },
- "campfire": {
-  "file": "campfire.webp",
-  "w": 160,
-  "h": 183,
-  "bytes": 9844
+  "h": 417,
+  "bytes": 74312
  },
  "chars-dress": {
   "file": "chars-dress.webp",
@@ -341,765 +107,11 @@
   "h": 960,
   "bytes": 128172
  },
- "crop-beans": {
-  "file": "crop-beans.webp",
-  "w": 640,
-  "h": 192,
-  "bytes": 23160,
-  "cells": 5,
-  "cw": 128
- },
- "crop-blueberry": {
-  "file": "crop-blueberry.webp",
-  "w": 640,
-  "h": 192,
-  "bytes": 24094,
-  "cells": 5,
-  "cw": 128
- },
- "crop-cabbage": {
-  "file": "crop-cabbage.webp",
-  "w": 640,
-  "h": 192,
-  "bytes": 19226,
-  "cells": 5,
-  "cw": 128
- },
- "crop-collards": {
-  "file": "crop-collards.webp",
-  "w": 640,
-  "h": 192,
-  "bytes": 20096,
-  "cells": 5,
-  "cw": 128
- },
- "crop-corn": {
-  "file": "crop-corn.webp",
-  "w": 640,
-  "h": 192,
-  "bytes": 27584,
-  "cells": 5,
-  "cw": 128
- },
- "crop-heirloom": {
-  "file": "crop-heirloom.webp",
-  "w": 640,
-  "h": 192,
-  "bytes": 29630,
-  "cells": 5,
-  "cw": 128
- },
- "crop-hops": {
-  "file": "crop-hops.webp",
-  "w": 640,
-  "h": 192,
-  "bytes": 21312,
-  "cells": 5,
-  "cw": 128
- },
- "crop-okra": {
-  "file": "crop-okra.webp",
-  "w": 640,
-  "h": 192,
-  "bytes": 32238,
-  "cells": 5,
-  "cw": 128
- },
- "crop-peanut": {
-  "file": "crop-peanut.webp",
-  "w": 640,
-  "h": 192,
-  "bytes": 28924,
-  "cells": 5,
-  "cw": 128
- },
- "crop-pepper": {
-  "file": "crop-pepper.webp",
-  "w": 640,
-  "h": 192,
-  "bytes": 30048,
-  "cells": 5,
-  "cw": 128
- },
- "crop-potato": {
-  "file": "crop-potato.webp",
-  "w": 640,
-  "h": 192,
-  "bytes": 33102,
-  "cells": 5,
-  "cw": 128
- },
- "crop-radish": {
-  "file": "crop-radish.webp",
-  "w": 640,
-  "h": 192,
-  "bytes": 19728,
-  "cells": 5,
-  "cw": 128
- },
- "crop-squash": {
-  "file": "crop-squash.webp",
-  "w": 640,
-  "h": 192,
-  "bytes": 22198,
-  "cells": 5,
-  "cw": 128
- },
- "crop-strawberry": {
-  "file": "crop-strawberry.webp",
-  "w": 640,
-  "h": 192,
-  "bytes": 19276,
-  "cells": 5,
-  "cw": 128
- },
- "crop-sweetcorn": {
-  "file": "crop-sweetcorn.webp",
-  "w": 640,
-  "h": 192,
-  "bytes": 26932,
-  "cells": 5,
-  "cw": 128
- },
- "crop-sweetpotato": {
-  "file": "crop-sweetpotato.webp",
-  "w": 640,
-  "h": 192,
-  "bytes": 26266,
-  "cells": 5,
-  "cw": 128
- },
- "crop-tomato": {
-  "file": "crop-tomato.webp",
-  "w": 640,
-  "h": 192,
-  "bytes": 28474,
-  "cells": 5,
-  "cw": 128
- },
- "crop-tulip": {
-  "file": "crop-tulip.webp",
-  "w": 640,
-  "h": 192,
-  "bytes": 21254,
-  "cells": 5,
-  "cw": 128
- },
- "crop-watermelon": {
-  "file": "crop-watermelon.webp",
-  "w": 640,
-  "h": 192,
-  "bytes": 25888,
-  "cells": 5,
-  "cw": 128
- },
- "crop-wheat": {
-  "file": "crop-wheat.webp",
-  "w": 640,
-  "h": 192,
-  "bytes": 26828,
-  "cells": 5,
-  "cw": 128
- },
- "crystal": {
-  "file": "crystal.webp",
-  "w": 128,
-  "h": 158,
-  "bytes": 8348
- },
- "deco-barrels": {
-  "file": "deco-barrels.webp",
-  "w": 200,
-  "h": 203,
-  "bytes": 11702
- },
- "deco-beehives": {
-  "file": "deco-beehives.webp",
-  "w": 200,
-  "h": 216,
-  "bytes": 10648
- },
- "deco-greenhouse": {
-  "file": "deco-greenhouse.webp",
-  "w": 320,
-  "h": 290,
-  "bytes": 22162
- },
- "deco-haybale": {
-  "file": "deco-haybale.webp",
-  "w": 200,
-  "h": 209,
-  "bytes": 11912
- },
- "deco-haystack": {
-  "file": "deco-haystack.webp",
-  "w": 200,
-  "h": 231,
-  "bytes": 12128
- },
- "deco-modelA": {
-  "file": "deco-modelA.webp",
-  "w": 320,
-  "h": 205,
-  "bytes": 12896
- },
- "deco-pump": {
-  "file": "deco-pump.webp",
-  "w": 200,
-  "h": 246,
-  "bytes": 12512
- },
- "deco-raisedbeds": {
-  "file": "deco-raisedbeds.webp",
-  "w": 320,
-  "h": 225,
-  "bytes": 19914
- },
- "deco-scarecrow": {
-  "file": "deco-scarecrow.webp",
-  "w": 200,
-  "h": 210,
-  "bytes": 11538
- },
- "deco-tractor": {
-  "file": "deco-tractor.webp",
-  "w": 320,
-  "h": 227,
-  "bytes": 16412
- },
- "deco-wagon": {
-  "file": "deco-wagon.webp",
-  "w": 320,
-  "h": 202,
-  "bytes": 14278
- },
- "deco-woodpile": {
-  "file": "deco-woodpile.webp",
-  "w": 200,
-  "h": 200,
-  "bytes": 13456
- },
- "ground-culvert": {
-  "file": "ground-culvert.webp",
-  "w": 512,
-  "h": 261,
-  "bytes": 36304
- },
- "ground-soakpool": {
-  "file": "ground-soakpool.webp",
-  "w": 448,
-  "h": 347,
-  "bytes": 30332
- },
- "ground-springbox": {
-  "file": "ground-springbox.webp",
-  "w": 256,
-  "h": 220,
-  "bytes": 19452
- },
- "icon-acorn": {
-  "file": "icon-acorn.webp",
-  "w": 96,
-  "h": 96,
-  "bytes": 4216
- },
- "icon-axe": {
-  "file": "icon-axe.webp",
-  "w": 96,
-  "h": 96,
-  "bytes": 3552
- },
- "icon-basket": {
-  "file": "icon-basket.webp",
-  "w": 96,
-  "h": 96,
-  "bytes": 5508
- },
- "icon-bass": {
-  "file": "icon-bass.webp",
-  "w": 96,
-  "h": 96,
-  "bytes": 4032
- },
- "icon-beans": {
-  "file": "icon-beans.webp",
-  "w": 96,
-  "h": 96,
-  "bytes": 5218
- },
- "icon-blackberry": {
-  "file": "icon-blackberry.webp",
-  "w": 96,
-  "h": 96,
-  "bytes": 5318
- },
- "icon-blueberry": {
-  "file": "icon-blueberry.webp",
-  "w": 96,
-  "h": 96,
-  "bytes": 4658
- },
- "icon-bream": {
-  "file": "icon-bream.webp",
-  "w": 96,
-  "h": 96,
-  "bytes": 4364
- },
- "icon-cabbage": {
-  "file": "icon-cabbage.webp",
-  "w": 96,
-  "h": 96,
-  "bytes": 4850
- },
- "icon-catfish": {
-  "file": "icon-catfish.webp",
-  "w": 96,
-  "h": 96,
-  "bytes": 4120
- },
- "icon-charcoal": {
-  "file": "icon-charcoal.webp",
-  "w": 96,
-  "h": 96,
-  "bytes": 4198
- },
- "icon-cheese": {
-  "file": "icon-cheese.webp",
-  "w": 96,
-  "h": 96,
-  "bytes": 6448
- },
- "icon-chest": {
-  "file": "icon-chest.webp",
-  "w": 96,
-  "h": 96,
-  "bytes": 4768
- },
- "icon-coin": {
-  "file": "icon-coin.webp",
-  "w": 96,
-  "h": 96,
-  "bytes": 4736
- },
- "icon-coldwater": {
-  "file": "icon-coldwater.webp",
-  "w": 96,
-  "h": 96,
-  "bytes": 5416
- },
- "icon-collards": {
-  "file": "icon-collards.webp",
-  "w": 96,
-  "h": 96,
-  "bytes": 4868
- },
- "icon-corn": {
-  "file": "icon-corn.webp",
-  "w": 96,
-  "h": 96,
-  "bytes": 4888
- },
- "icon-cornmeal": {
-  "file": "icon-cornmeal.webp",
-  "w": 96,
-  "h": 96,
-  "bytes": 5098
- },
- "icon-crappie": {
-  "file": "icon-crappie.webp",
-  "w": 96,
-  "h": 96,
-  "bytes": 4656
- },
- "icon-crate": {
-  "file": "icon-crate.webp",
-  "w": 96,
-  "h": 96,
-  "bytes": 4830
- },
- "icon-drip": {
-  "file": "icon-drip.webp",
-  "w": 96,
-  "h": 96,
-  "bytes": 4576
- },
- "icon-drum": {
-  "file": "icon-drum.webp",
-  "w": 96,
-  "h": 96,
-  "bytes": 3764
- },
- "icon-egg": {
-  "file": "icon-egg.webp",
-  "w": 96,
-  "h": 96,
-  "bytes": 3432
- },
- "icon-emptyjug": {
-  "file": "icon-emptyjug.webp",
-  "w": 96,
-  "h": 96,
-  "bytes": 4160
- },
- "icon-feed": {
-  "file": "icon-feed.webp",
-  "w": 96,
-  "h": 96,
-  "bytes": 5262
- },
- "icon-fence": {
-  "file": "icon-fence.webp",
-  "w": 96,
-  "h": 96,
-  "bytes": 4748
- },
- "icon-gar": {
-  "file": "icon-gar.webp",
-  "w": 96,
-  "h": 96,
-  "bytes": 3426
- },
- "icon-goatmilk": {
-  "file": "icon-goatmilk.webp",
-  "w": 96,
-  "h": 96,
-  "bytes": 3980
- },
- "icon-greens": {
-  "file": "icon-greens.webp",
-  "w": 96,
-  "h": 96,
-  "bytes": 5426
- },
- "icon-hardware": {
-  "file": "icon-hardware.webp",
-  "w": 96,
-  "h": 96,
-  "bytes": 6464
- },
- "icon-hay": {
-  "file": "icon-hay.webp",
-  "w": 96,
-  "h": 96,
-  "bytes": 5812
- },
- "icon-heirloom": {
-  "file": "icon-heirloom.webp",
-  "w": 96,
-  "h": 96,
-  "bytes": 4358
- },
- "icon-hickory": {
-  "file": "icon-hickory.webp",
-  "w": 96,
-  "h": 96,
-  "bytes": 4186
- },
- "icon-hoe": {
-  "file": "icon-hoe.webp",
-  "w": 96,
-  "h": 96,
-  "bytes": 3950
- },
- "icon-hops": {
-  "file": "icon-hops.webp",
-  "w": 96,
-  "h": 96,
-  "bytes": 4612
- },
- "icon-hotwater": {
-  "file": "icon-hotwater.webp",
-  "w": 96,
-  "h": 96,
-  "bytes": 3864
- },
- "icon-hut": {
-  "file": "icon-hut.webp",
-  "w": 96,
-  "h": 96,
-  "bytes": 5584
- },
- "icon-jug": {
-  "file": "icon-jug.webp",
-  "w": 96,
-  "h": 96,
-  "bytes": 4500
- },
- "icon-key": {
-  "file": "icon-key.webp",
-  "w": 96,
-  "h": 96,
-  "bytes": 4580
- },
- "icon-milk": {
-  "file": "icon-milk.webp",
-  "w": 96,
-  "h": 96,
-  "bytes": 4794
- },
- "icon-mushroom": {
-  "file": "icon-mushroom.webp",
-  "w": 96,
-  "h": 96,
-  "bytes": 3968
- },
- "icon-novaculite": {
-  "file": "icon-novaculite.webp",
-  "w": 96,
-  "h": 96,
-  "bytes": 5500
- },
- "icon-oakleaf": {
-  "file": "icon-oakleaf.webp",
-  "w": 96,
-  "h": 96,
-  "bytes": 4342
- },
- "icon-okra": {
-  "file": "icon-okra.webp",
-  "w": 96,
-  "h": 96,
-  "bytes": 4432
- },
- "icon-peanut": {
-  "file": "icon-peanut.webp",
-  "w": 96,
-  "h": 96,
-  "bytes": 5174
- },
- "icon-pepper": {
-  "file": "icon-pepper.webp",
-  "w": 96,
-  "h": 96,
-  "bytes": 4270
- },
- "icon-pick": {
-  "file": "icon-pick.webp",
-  "w": 96,
-  "h": 96,
-  "bytes": 3666
- },
- "icon-picnic": {
-  "file": "icon-picnic.webp",
-  "w": 96,
-  "h": 96,
-  "bytes": 5372
- },
- "icon-pineknot": {
-  "file": "icon-pineknot.webp",
-  "w": 96,
-  "h": 96,
-  "bytes": 5220
- },
- "icon-potato": {
-  "file": "icon-potato.webp",
-  "w": 96,
-  "h": 96,
-  "bytes": 3820
- },
- "icon-preserves": {
-  "file": "icon-preserves.webp",
-  "w": 96,
-  "h": 96,
-  "bytes": 5472
- },
- "icon-quartz": {
-  "file": "icon-quartz.webp",
-  "w": 96,
-  "h": 96,
-  "bytes": 5140
- },
- "icon-radish": {
-  "file": "icon-radish.webp",
-  "w": 96,
-  "h": 96,
-  "bytes": 3792
- },
- "icon-rod": {
-  "file": "icon-rod.webp",
-  "w": 96,
-  "h": 96,
-  "bytes": 3686
- },
- "icon-scythe": {
-  "file": "icon-scythe.webp",
-  "w": 96,
-  "h": 96,
-  "bytes": 3648
- },
- "icon-seedpacket": {
-  "file": "icon-seedpacket.webp",
-  "w": 96,
-  "h": 96,
-  "bytes": 4032
- },
- "icon-seedsack": {
-  "file": "icon-seedsack.webp",
-  "w": 96,
-  "h": 96,
-  "bytes": 4498
- },
- "icon-shingles": {
-  "file": "icon-shingles.webp",
-  "w": 96,
-  "h": 96,
-  "bytes": 4926
- },
- "icon-sprinkler": {
-  "file": "icon-sprinkler.webp",
-  "w": 96,
-  "h": 96,
-  "bytes": 4718
- },
- "icon-squash": {
-  "file": "icon-squash.webp",
-  "w": 96,
-  "h": 96,
-  "bytes": 3520
- },
- "icon-stand": {
-  "file": "icon-stand.webp",
-  "w": 96,
-  "h": 96,
-  "bytes": 5776
- },
- "icon-staves": {
-  "file": "icon-staves.webp",
-  "w": 96,
-  "h": 96,
-  "bytes": 4046
- },
- "icon-stone": {
-  "file": "icon-stone.webp",
-  "w": 96,
-  "h": 96,
-  "bytes": 4708
- },
- "icon-strawberry": {
-  "file": "icon-strawberry.webp",
-  "w": 96,
-  "h": 96,
-  "bytes": 4570
- },
- "icon-striper": {
-  "file": "icon-striper.webp",
-  "w": 96,
-  "h": 96,
-  "bytes": 5046
- },
- "icon-sweetcorn": {
-  "file": "icon-sweetcorn.webp",
-  "w": 96,
-  "h": 96,
-  "bytes": 5370
- },
- "icon-sweetpotato": {
-  "file": "icon-sweetpotato.webp",
-  "w": 96,
-  "h": 96,
-  "bytes": 3602
- },
- "icon-tea": {
-  "file": "icon-tea.webp",
-  "w": 96,
-  "h": 96,
-  "bytes": 4762
- },
- "icon-tomato": {
-  "file": "icon-tomato.webp",
-  "w": 96,
-  "h": 96,
-  "bytes": 4030
- },
- "icon-trout": {
-  "file": "icon-trout.webp",
-  "w": 96,
-  "h": 96,
-  "bytes": 3996
- },
- "icon-tub": {
-  "file": "icon-tub.webp",
-  "w": 96,
-  "h": 96,
-  "bytes": 5538
- },
- "icon-tulip": {
-  "file": "icon-tulip.webp",
-  "w": 96,
-  "h": 96,
-  "bytes": 4978
- },
- "icon-walleye": {
-  "file": "icon-walleye.webp",
-  "w": 96,
-  "h": 96,
-  "bytes": 4072
- },
- "icon-watermelon": {
-  "file": "icon-watermelon.webp",
-  "w": 96,
-  "h": 96,
-  "bytes": 4992
- },
- "icon-wheat": {
-  "file": "icon-wheat.webp",
-  "w": 96,
-  "h": 96,
-  "bytes": 5068
- },
- "icon-whetstone": {
-  "file": "icon-whetstone.webp",
-  "w": 96,
-  "h": 96,
-  "bytes": 3788
- },
- "icon-whitebass": {
-  "file": "icon-whitebass.webp",
-  "w": 96,
-  "h": 96,
-  "bytes": 4800
- },
- "icon-wood": {
-  "file": "icon-wood.webp",
-  "w": 96,
-  "h": 96,
-  "bytes": 4440
- },
- "lamp-deco": {
-  "file": "lamp-deco.webp",
-  "w": 96,
-  "h": 252,
-  "bytes": 7960
- },
- "lamp-gas": {
-  "file": "lamp-gas.webp",
-  "w": 96,
-  "h": 381,
-  "bytes": 8846
- },
- "lamp-lantern": {
-  "file": "lamp-lantern.webp",
-  "w": 96,
-  "h": 232,
-  "bytes": 7930
- },
  "lamp-led": {
   "file": "lamp-led.webp",
   "w": 96,
   "h": 421,
   "bytes": 7996
- },
- "lamp-sodium": {
-  "file": "lamp-sodium.webp",
-  "w": 96,
-  "h": 280,
-  "bytes": 5158
- },
- "outcrop": {
-  "file": "outcrop.webp",
-  "w": 160,
-  "h": 191,
-  "bytes": 10212
  },
  "rock": {
   "file": "rock.webp",
@@ -1119,101 +131,11 @@
   "h": 153,
   "bytes": 9726
  },
- "street-bikes": {
-  "file": "street-bikes.webp",
-  "w": 180,
-  "h": 183,
-  "bytes": 11638
- },
- "street-buggy": {
-  "file": "street-buggy.webp",
-  "w": 320,
-  "h": 163,
-  "bytes": 15606
- },
- "street-car26a": {
-  "file": "street-car26a.webp",
-  "w": 320,
-  "h": 170,
-  "bytes": 13966
- },
- "street-car26b": {
-  "file": "street-car26b.webp",
-  "w": 320,
-  "h": 186,
-  "bytes": 13986
- },
- "street-car55a": {
-  "file": "street-car55a.webp",
-  "w": 320,
-  "h": 164,
-  "bytes": 13606
- },
- "street-car55b": {
-  "file": "street-car55b.webp",
-  "w": 320,
-  "h": 146,
-  "bytes": 12546
- },
- "street-carriage": {
-  "file": "street-carriage.webp",
-  "w": 320,
-  "h": 163,
-  "bytes": 17992
- },
- "street-coupe31": {
-  "file": "street-coupe31.webp",
-  "w": 320,
-  "h": 174,
-  "bytes": 14486
- },
- "street-hitch": {
-  "file": "street-hitch.webp",
-  "w": 180,
-  "h": 170,
-  "bytes": 9678
- },
- "street-hydrant": {
-  "file": "street-hydrant.webp",
-  "w": 180,
-  "h": 262,
-  "bytes": 13400
- },
- "street-planter": {
-  "file": "street-planter.webp",
-  "w": 180,
-  "h": 203,
-  "bytes": 13308
- },
- "street-sedan31": {
-  "file": "street-sedan31.webp",
-  "w": 320,
-  "h": 203,
-  "bytes": 15514
- },
- "street-umbrella": {
-  "file": "street-umbrella.webp",
-  "w": 180,
-  "h": 185,
-  "bytes": 12660
- },
  "tex-asphalt": {
   "file": "tex-asphalt.webp",
   "w": 512,
   "h": 512,
   "bytes": 51384
- },
- "tex-brick": {
-  "file": "tex-brick.webp",
-  "w": 512,
-  "h": 512,
-  "bytes": 36248
- },
- "tex-clay": {
-  "file": "tex-clay.webp",
-  "w": 512,
-  "h": 512,
-  "bytes": 47296
  },
  "tex-creek": {
   "file": "tex-creek.webp",
@@ -1263,11 +185,11 @@
   "h": 512,
   "bytes": 25432
  },
- "tex-road": {
-  "file": "tex-road.webp",
+ "tex-pinestraw": {
+  "file": "tex-pinestraw.webp",
   "w": 512,
   "h": 512,
-  "bytes": 38704
+  "bytes": 80556
  },
  "tex-rock": {
   "file": "tex-rock.webp",
@@ -1293,17 +215,53 @@
   "h": 512,
   "bytes": 28638
  },
- "tex-soil-wet": {
-  "file": "tex-soil-wet.webp",
-  "w": 512,
-  "h": 512,
-  "bytes": 33426
+ "tree-cypress": {
+  "file": "tree-cypress.webp",
+  "w": 288,
+  "h": 511,
+  "bytes": 47238
  },
- "tex-tufa": {
-  "file": "tex-tufa.webp",
-  "w": 512,
-  "h": 512,
-  "bytes": 47346
+ "tree-dogwood": {
+  "file": "tree-dogwood.webp",
+  "w": 288,
+  "h": 377,
+  "bytes": 36444
+ },
+ "tree-dogwood-fa": {
+  "file": "tree-dogwood-fa.webp",
+  "w": 288,
+  "h": 373,
+  "bytes": 39186
+ },
+ "tree-dogwood-sp": {
+  "file": "tree-dogwood-sp.webp",
+  "w": 288,
+  "h": 376,
+  "bytes": 41824
+ },
+ "tree-dogwood-wi": {
+  "file": "tree-dogwood-wi.webp",
+  "w": 288,
+  "h": 378,
+  "bytes": 64052
+ },
+ "tree-jmaple": {
+  "file": "tree-jmaple.webp",
+  "w": 288,
+  "h": 358,
+  "bytes": 42940
+ },
+ "tree-jmaple-fa": {
+  "file": "tree-jmaple-fa.webp",
+  "w": 288,
+  "h": 359,
+  "bytes": 44424
+ },
+ "tree-jmaple-wi": {
+  "file": "tree-jmaple-wi.webp",
+  "w": 288,
+  "h": 371,
+  "bytes": 70572
  },
  "tree-magnolia": {
   "file": "tree-magnolia.webp",
@@ -1341,52 +299,22 @@
   "h": 352,
   "bytes": 29336
  },
- "trough": {
-  "file": "trough.webp",
-  "w": 220,
-  "h": 126,
-  "bytes": 9614
+ "tree-redbud": {
+  "file": "tree-redbud.webp",
+  "w": 288,
+  "h": 385,
+  "bytes": 53086
  },
- "tuft": {
-  "file": "tuft.webp",
-  "w": 128,
-  "h": 137,
-  "bytes": 11576
+ "tree-redbud-sp": {
+  "file": "tree-redbud-sp.webp",
+  "w": 288,
+  "h": 385,
+  "bytes": 56214
  },
- "vista-1": {
-  "file": "vista-1.webp",
+ "vista-garvan": {
+  "file": "vista-garvan.webp",
   "w": 1536,
   "h": 1024,
-  "bytes": 383738
- },
- "vista-2": {
-  "file": "vista-2.webp",
-  "w": 1536,
-  "h": 1024,
-  "bytes": 354574
- },
- "vista-3": {
-  "file": "vista-3.webp",
-  "w": 1536,
-  "h": 1024,
-  "bytes": 400792
- },
- "vista-4": {
-  "file": "vista-4.webp",
-  "w": 1536,
-  "h": 1024,
-  "bytes": 453180
- },
- "vista-5": {
-  "file": "vista-5.webp",
-  "w": 1536,
-  "h": 1024,
-  "bytes": 447280
- },
- "vista-6": {
-  "file": "vista-6.webp",
-  "w": 1536,
-  "h": 1024,
-  "bytes": 420146
+  "bytes": 424108
  }
 }

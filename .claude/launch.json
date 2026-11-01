@@ -2,7 +2,7 @@
   "version": "0.0.1",
   "configurations": [
     {
-      "name": "farm-sim",
+      "name": "garvan",
       "runtimeExecutable": "python",
       "runtimeArgs": [
         "-m",

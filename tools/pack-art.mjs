@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Packs art-src/*.png into assets/*.webp for Valley of Vapors, with the harness's Chromium (no image libraries).
+// Packs art-src/*.png into assets/*.webp for Woodland Gardens Keeper, with the harness's Chromium (no image libraries).
 // A game-local cousin of shared/test-harness/art-pack.mjs with what this game needs on top:
 //   - "trim": crop to the visible pixels after keying white, then scale to "w" keeping the TRUE aspect, so a
 //     building's painted base lands exactly on its footprint (manifest records the real w and h);
