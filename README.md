@@ -1,11 +1,19 @@
-# Valley of Vapors: Through the Ages
+# Woodland Gardens Keeper
 
-Farming and life sim across the town's eras. Part of **Hot Springs Games**, an open-source (MIT) collection of browser games set in
-Hot Springs, Arkansas. The game ships as a self-contained `index.html`: art is drawn in code or painted into
-`assets/`, sound is synthesized with WebAudio, and nothing loads from the network.
+A gardening and grounds-keeping sim set at **Garvan Woodland Gardens**, the University of Arkansas botanical
+garden on a Lake Hamilton peninsula in Hot Springs. You work a year (or several) on the grounds crew: pick up
+after the visitors, weed, mulch with pine straw, rake, mow, water, prune each plant in its season, clear storm
+limbs and invasive privet, plant the tulip beds to the year's design during the January closure, set up
+weddings at Anthony Chapel, and install, run and tear down Fall in the Woodlands and Holiday Lights. George the
+peacock wanders the grounds.
 
-All games in the collection are original designs. Real places, schools and businesses appear as setting and
-history only; no logos are reproduced and nothing implies endorsement. School rosters are fictional.
+Part of **Hot Springs Games**, an open-source (MIT) collection of browser games set in Hot Springs, Arkansas.
+The game ships as a self-contained `index.html`: art is drawn in code or painted into `assets/`, sound is
+synthesized with WebAudio, and nothing loads from the network.
+
+Real places appear as setting only: no logos are reproduced and nothing implies endorsement by the garden or
+the university. The staff, wages, work orders and exact game dates are invented. Garden facts are sourced:
+see `research/garvan-layout.md`, `research/garvan-operations.md` and the fact cards in `data/facts.json`.
 
 ## Play
 
@@ -17,22 +25,19 @@ Open `index.html` in a browser, or serve the folder (`python -m http.server 8765
 npm run setup   # installs Playwright and Chromium for the test harness
 npm run build   # rebuilds index.html from src/ (edit src/, not index.html)
 npm test        # runs tests/*.test.mjs; screenshots land in screenshots/
+node tools/check-facts.mjs   # every fact card quotes its research note and cites its source
+node tools/balance.mjs       # a year with idle, steady and keen bots; checks the Garden Rating bands
+node tools/perf-scenes.mjs   # frame rate in the busiest scenes
+node tools/pack-art.mjs      # art-src/*.png → assets/*.webp (see art-src/art.json, art-src/PROMPTS.md)
 ```
 
-Design docs: `PRD.md`, `MECHANICS.md`, `DEV-PLAN.md`, `REPORT.md`, `VISUAL-PLAN.md`, `VISUAL-REPORT.md`.
+Design notes: `DESIGN.md`. Code-sample survey: `SAMPLES.md`.
 
 ## Vendored from the collection
 
-This repo was split out of the original Hot Springs Games monorepo (kept offline), which holds the full research
-corpus, `LESSONS.md` and the session brief. Copies kept here so the game builds and tests on its own:
-
-- `shared/test-harness/`: the Playwright screenshot test runner (`run.mjs`, `art-pack.mjs`, `sheets.mjs`, `gallery.mjs`).
-- `shared/tools/inline.mjs`: bundles `src/` into the single-file `index.html`.
-- `shared/data/trivia-questions.json`: snapshot of the audited trivia bank (`data/questions.json` in [hsg-trivia](https://github.com/brianm-di4u/hsg-trivia)), read by the fact-check tools.
-- `research/`: `history-timeline.md` comes from the collection's shared research corpus.
-
-Older docs in this repo refer to monorepo paths such as `games/farm-sim/` and `shared/...`; here the game
-folder is the repo root.
+- `shared/test-harness/`: the Playwright screenshot test runner.
+- `shared/tools/inline.mjs`: bundles `src/` into the single-file `index.html`. It does not support
+  `export … from` re-exports: write `export const x = mod.x;` instead.
 
 ## License
 

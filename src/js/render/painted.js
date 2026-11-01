@@ -77,8 +77,8 @@ export function treeSprite(kind, sea, u, x = 0, y = 0) {
   const tint = name === 'tree-oak-su' ? ['#3f7a2a', 0.38] : name === 'tree-oak-sp' ? ['#7cc048', 0.45] : null;
   return { c: scaled(name, w, h, flip, tint), ox: -w / 2, oy: -h };
 }
-const PROP_IMG = { bench: 'street-bench', hay: 'deco-haybale' };
-const PROP = { rock: 0.95, sign: 1.0, bench: 1.1, hay: 1.2 };
+const PROP_IMG = { bench: 'street-bench' };
+const PROP = { rock: 0.95, sign: 1.0, bench: 1.1 };
 export function propSprite(t, u, x = 0, y = 0) {
   const w0 = PROP[t], name = PROP_IMG[t] || t;
   if (!w0 || !img(name)) return null;

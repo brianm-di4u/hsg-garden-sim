@@ -14,10 +14,10 @@ const gpu = process.argv.includes('--gpu');
 const url = pathToFileURL(path.resolve(HERE, '..', 'index.html')).href;
 const browser = await chromium.launch(gpu ? { args: ['--use-angle=d3d11', '--enable-gpu', '--ignore-gpu-blocklist'] } : {});
 const SCENES = [
-  ['1931 town, night, rain', { era: 4, at: 'town', time: 1290, weather: 'rain' }],
-  ['1886 town, snow', { era: 3, at: 'town', time: 640, day: 24, weather: 'snow' }],
-  ['1886 by the springs, fog (steam)', { era: 3, at: 'promenade', time: 420, day: 3, weather: 'fog' }],
-  ['2026 lake, evening', { era: 6, at: 'lake', time: 1110 }],
+  ['Tulip Extravaganza, Welcome Center', { day: 5, at: 'gate', time: 700 }],
+  ['Holiday Lights night, Great Lawn', { day: 86, at: 'lawnEast', time: 1150, lights: true }],
+  ['Pine Wind, fall color, rain', { day: 77, at: 'koi', time: 900, weather: 'rain' }],
+  ['Woods, snow', { day: 98, at: 'canopy', time: 640, weather: 'snow' }],
 ];
 for (const [vp, opts] of [['desktop', { viewport: { width: 1280, height: 800 } }], ['mobile', { viewport: { width: 390, height: 844 }, deviceScaleFactor: 2, isMobile: true, hasTouch: true }]]) {
   const ctx = await browser.newContext(opts), page = await ctx.newPage();
@@ -26,7 +26,11 @@ for (const [vp, opts] of [['desktop', { viewport: { width: 1280, height: 800 } }
   await page.waitForFunction(() => !!window.__game);
   const hooks = Date.now() - t0;
   for (const [name, sc] of SCENES) {
-    await page.evaluate((sc) => { window.__game.seed(7); window.__game.scene(sc); window.__game.resume && window.__game.resume(); }, sc);
+    await page.evaluate((sc) => {
+      const g = window.__game; g.seed(7); g.scene(sc);
+      if (sc.lights) { const disp = {}; g.act('markers').filter((m) => m.show === 'hl').forEach((m) => { disp[m.id] = { st: 'ok' }; }); g.setState({ disp }); g.step(12 * 60); }
+      g.resume();
+    }, sc);
     await page.waitForFunction(() => { const s = window.__game.getState(); return s.artPending === 0 && s.artLoaded >= s.artTotal; }, null, { timeout: 30000 });
     await page.waitForTimeout(300);
     await page.keyboard.down('ArrowRight');

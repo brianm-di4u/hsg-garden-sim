@@ -40,7 +40,7 @@ export function swapSlots(S, a, b) { const t = S.inv[a]; S.inv[a] = S.inv[b]; S.
 export const ground = (gm, x, y) => (x < 0 || y < 0 || x >= W || y >= H ? G.DEEP : gm.world.g[y * W + x]);
 export const zoneAt = (gm, x, y) => (x < 0 || y < 0 || x >= W || y >= H ? ZONES[ZONES.length - 1] : ZONES[gm.world.zone[y * W + x]]);
 // Objects that stop the player: trees, shrubs, rocks, fallen limbs, fixed furniture.
-const BLOCK_FIXED = new Set(['sign', 'feeder', 'pergola', 'fairy', 'falls']);
+const BLOCK_FIXED = new Set(['sign', 'feeder', 'pergola', 'fairy', 'falls', 'bench']);
 export function objAt(gm, x, y) { return gm.S.objs[key(x, y)] || gm.fixed[key(x, y)] || null; }
 export function objBlocks(o) {
   if (!o) return false;

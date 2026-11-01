@@ -203,6 +203,7 @@ export const PEOPLE = {
       { h: 1, t: 'Tulips here are annuals. Zone 8 is too warm for them to come back, so we plant every bed fresh.', fact: 'g-tulip-annual' },
       { h: 2, t: 'We plant tulips in January now, when the gates are shut. Plant any earlier and they bloom for nobody.', fact: 'g-tulip-january' },
       { h: 2, s: 'sp', t: 'Watch the forecast in early spring. A hard freeze in the mid-twenties will burn the tulip blooms.', fact: 'g-tulip-freeze' },
+      { h: 2, s: 'wi', t: 'Ice storms are the worst. In 2012 one closed the whole garden for the rest of the year.', fact: 'g-storm-2012' },
       { h: 3, t: 'The whole place belongs to the University of Arkansas. The architecture school runs it, which is why the buildings are what they are.', fact: 'g-university' },
       { h: 4, t: 'You have good hands for this. Most people rush the pruning. You don\'t.' },
     ] },

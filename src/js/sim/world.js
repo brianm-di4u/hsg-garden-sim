@@ -213,7 +213,7 @@ export function buildWorld(seed) {
   line(CHAPEL_WALK, 2, G.STONE); line(CELEBRATION_WALK, 1, G.STONE);
   line(AMPHI_WALK, 2, G.STONE, { keep: (v) => v === G.LAWN });
   line(TREEHOUSE_WALK, 2, G.PATH, { bridge: G.BRIDGE });
-  line(KOI_WALK, 2, G.PATH, { bridge: G.BRIDGE, keep: (v) => v === G.LAWN });
+  line(KOI_WALK, 1, G.STONE, { bridge: G.BRIDGE });
   line(BIRDSONG, 1, G.PATH, { bridge: G.BRIDGE });
   line(SHORE_TRAIL, 1, G.PATH, { bridge: G.BRIDGE });
   line(CAMELLIA_TRAIL, 1, G.PATH, { bridge: G.BRIDGE });
@@ -262,6 +262,8 @@ export function buildWorld(seed) {
   addFixed({ t: 'venue', k: 'koi', x: 75, y: 66 });
   addFixed({ t: 'pergola', x: 81, y: 45 }, (v) => soft(v) || v === G.BED);
   addFixed({ t: 'fairy', x: 67, y: 21 });
+  // Benches along the path west to Perry Point (a run of benches is mapped there).
+  for (const [x, y] of [[24, 48], [30, 50], [36, 53], [44, 57], [20, 47]]) addFixed({ t: 'bench', x, y });
   addFixed({ t: 'falls', x: 72, y: 54 }, (v) => soft(v) || v === G.ROCK);
   addFixed({ t: 'falls', x: 60, y: 25 }, (v) => soft(v) || v === G.ROCK);
   // Display markers.

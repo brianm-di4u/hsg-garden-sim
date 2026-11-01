@@ -304,7 +304,9 @@ function objEntry(ctx, gm, o, x, y, P, u, pl, d, yr, now, night) {
     const st = wrap && wrap.wrap ? S.disp[wrap.id] : null;
     const bx = (x + 0.5) * u, by = (y + 0.92) * u;
     const behind = (sp) => { const px = pl.x * u, py = (pl.y - 0.6) * u; return pl.y < y + 0.92 && px > bx + sp.ox + u * 0.2 && px < bx + sp.ox + sp.c.width - u * 0.2 && py > by + sp.oy && py < by; };
-    const painted = PA.treeArt(o.k, P.sea) && !L.bloom ? PA.treeSprite(o.k, P.sea, u, x, y) : null;
+    // Painted trees: seasonal art where it exists (it carries its own blossom); otherwise only when not in bloom.
+    const art = PA.treeArt(o.k, P.sea);
+    const painted = art && (!L.bloom || art.endsWith('-' + P.sea)) ? PA.treeSprite(o.k, P.sea, u, x, y) : null;
     const sp = painted || (() => { const c = treeSprite(o.k, P, u, L); return { c, ox: -u * 0.8, oy: -u * 2.35 }; })();
     const wrapDraw = st ? () => GA.drawWrap(ctx, x, y, u, night && st.st === 'ok', st.st === 'dark', R.reduced ? 0 : now) : null;
     return { y: y + 0.95, sil: { c: sp.c, bx, by, ox: sp.ox, oy: sp.oy }, d: () => { const b = behind(sp); if (b) ctx.globalAlpha = 0.45; ctx.drawImage(sp.c, bx + sp.ox, by + sp.oy); ctx.globalAlpha = 1; if (wrapDraw) wrapDraw(); if (st && st.st !== 'ok') bubble(ctx, bx + u * 0.3, by - u * 2.2, st.st === 'dark' ? '!' : '?', u * 0.8, st.st === 'dark' ? '#ff7a6a' : '#f4c542'); } };

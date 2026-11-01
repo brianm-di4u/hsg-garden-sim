@@ -22,7 +22,7 @@ for (const [name, opts] of [['desktop', { viewport: { width: 1280, height: 800 }
   page.on('request', (r) => { if (!r.url().startsWith('file:') && !r.url().startsWith('data:')) problems.push('network request: ' + r.url()); });
   await page.goto(url);
   await page.waitForFunction(() => !!window.__game);
-  await page.evaluate(() => { window.__game.seed(7); window.__game.scene({ era: 4, at: 'town', time: 1250 }); });
+  await page.evaluate(() => { window.__game.seed(7); window.__game.scene({ day: 5, at: 'gate', time: 700 }); });
   await page.waitForFunction(() => { const s = window.__game.getState(); return s.artPending === 0 && s.artLoaded >= s.artTotal; }, null, { timeout: 30000 }).catch(() => problems.push('art did not finish loading'));
   await page.waitForTimeout(400);
   const s = await page.evaluate(() => window.__game.getState());
