@@ -362,7 +362,7 @@ When done, list the files written and their pixel sizes.
 ## 14. Paints spring props (2026-10-29)
 
 ```text
-Working directory: C:\Video Game Projects\repos\hsg-farm-sim. Image-generation task: generate each image with your image generation tool and copy the final file to the exact repo path given. Do not edit any other files.
+Working directory: C:\Video Game Projects\repos\hsg-garden-sim. Image-generation task: generate each image with your image generation tool and copy the final file to the exact repo path given. Do not edit any other files.
 
 Props for a hand-painted top-down farming game set in the Hot Springs valley. STYLE REFERENCE (open them and match the painting style: gouache storybook look, three-quarter top-down view, soft light from the upper left, warm dark-brown outlines): `art-src/pilot-plankbath.png` and `art-src/deco-pump.png`.
 
@@ -381,7 +381,7 @@ When done, list the files written and their pixel sizes.
 For the conversion to Woodland Gardens Keeper. Run with the Codex CLI image tool (GPT-6.1 Sol) via the codex-rescue agent. Styles follow the pilot images; no photographs were given as references.
 
 ```text
-Working directory: C:\Video Game Projects\repos\hsg-farm-sim. Image-generation task: generate each image with your image generation tool and copy the final file to the exact path given (all under art-src/). Do not edit any other files. Report the paths when done.
+Working directory: C:\Video Game Projects\repos\hsg-garden-sim. Image-generation task: generate each image with your image generation tool and copy the final file to the exact path given (all under art-src/). Do not edit any other files. Report the paths when done.
 
 Original hand-painted art for a top-down gardening sim set at a woodland botanical garden on a lake in the Ouachita Mountains of Arkansas (Garvan Woodland Gardens, Hot Springs). Paint from the written descriptions only; do not reproduce any photograph.
 
