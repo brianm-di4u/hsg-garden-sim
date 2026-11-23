@@ -1,0 +1,6 @@
+[
+  {
+    "test": "performance and budgets",
+    "why": "needs 50 fps in software rendering; run 45286541536 measured 44.9 on desktop, with script time per frame up from about 4.3 ms (local) to 7.16 ms on the same build; the test passes locally at about 56 fps"
+  }
+]
